@@ -12,9 +12,9 @@ title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Yan Zhang"
 description              : &description "personal description"
-url                      : https://yzhang952.github.io
+url                      : https://zhanglab-ricesynbio.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "yzhang952/yzhang952.github.io"
+repository               : "zhanglab-ricesynbio/zhanglab-ricesynbio.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
