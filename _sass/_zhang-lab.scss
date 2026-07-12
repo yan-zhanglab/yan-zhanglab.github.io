@@ -100,6 +100,29 @@ $rice-light-gray: #e7e7e7;
   text-decoration: none;
 }
 
+.publication-detail-figure {
+  margin: 2rem 0 2.5rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.publication-detail-figure img {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.publication-publisher {
+  margin-top: -0.5rem;
+  color: #7c7e7f;
+  font-size: 0.9rem;
+}
+
 .publication-card__links a:hover {
   text-decoration: underline;
 }
