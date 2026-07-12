@@ -10,46 +10,53 @@ $rice-white: #ffffff;
 
 
 /* =======================================================
-   Rice Blue Navigation Bar
+   Rice blue navigation bar
    ======================================================= */
 
 .masthead {
-  background: #00205B !important;
+  background-color: $rice-blue !important;
   border-bottom: none !important;
 }
 
-.greedy-nav {
-  background: #00205B !important;
-}
-
+/* Keep the centered inner elements transparent */
+.masthead__inner-wrap,
 .greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links {
-  background: #00205B !important;
+.greedy-nav .visible-links {
+  background: transparent !important;
 }
 
+/* Mobile dropdown retains the blue background */
+.greedy-nav .hidden-links {
+  background-color: $rice-blue !important;
+}
+
+.masthead a,
+.masthead a:visited,
 .greedy-nav a,
+.greedy-nav a:visited,
 .greedy-nav .site-title,
 .greedy-nav .visible-links a,
 .greedy-nav .hidden-links a {
-  color: white !important;
+  color: $rice-white !important;
 }
 
+.masthead a:hover,
+.masthead a:focus,
 .greedy-nav a:hover,
+.greedy-nav a:focus,
 .greedy-nav .site-title:hover,
-.greedy-nav .visible-links a:hover,
-.greedy-nav .hidden-links a:hover {
-  color: rgba(255,255,255,0.8) !important;
+.greedy-nav .site-title:focus {
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .greedy-nav button {
-  color: white !important;
+  color: $rice-white !important;
 }
 
 .greedy-nav .navicon,
 .greedy-nav .navicon::before,
 .greedy-nav .navicon::after {
-  background: white !important;
+  background-color: $rice-white !important;
 }
 
 
@@ -191,69 +198,6 @@ $rice-white: #ffffff;
 
 
 /* =======================================================
-   Responsive layout
-   ======================================================= */
-
-@media (max-width: 760px) {
-  .publication-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .publication-card__image {
-    height: auto;
-  }
-}
-
-/* =======================================================
-   Responsive layout
-   ======================================================= */
-
-@media (max-width: 760px) {
-  .publication-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .publication-card__image {
-    height: auto;
-  }
-}
-
-/* =======================================================
-   Force Rice blue navigation bar
-   ======================================================= */
-
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .hidden-links {
-  background-color: $rice-blue !important;
-}
-
-.masthead a,
-.masthead a:visited,
-.greedy-nav a,
-.greedy-nav a:visited,
-.greedy-nav .site-title,
-.greedy-nav .visible-links a,
-.greedy-nav .hidden-links a {
-  color: $rice-white !important;
-}
-
-.masthead a:hover,
-.masthead a:focus,
-.greedy-nav a:hover,
-.greedy-nav a:focus {
-  color: rgba(255, 255, 255, 0.8) !important;
-}
-
-.greedy-nav .navicon,
-.greedy-nav .navicon::before,
-.greedy-nav .navicon::after {
-  background-color: $rice-white !important;
-}
-
-/* =======================================================
    Rice blue footer
    ======================================================= */
 
@@ -277,4 +221,19 @@ $rice-white: #ffffff;
 .page__footer a:hover,
 .page__footer a:focus {
   color: rgba(255, 255, 255, 0.8) !important;
+}
+
+
+/* =======================================================
+   Responsive layout
+   ======================================================= */
+
+@media (max-width: 760px) {
+  .publication-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-card__image {
+    height: auto;
+  }
 }
