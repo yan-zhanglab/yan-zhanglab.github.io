@@ -2,19 +2,22 @@
    Variables
    ========================================================================== */
 
+
 /*
    Typography
    ========================================================================== */
 
 $doc-font-size              : 16;
 
-/* paragraph indention */
-$paragraph-indent           : false; // true, false (default)
+/* paragraph indentation */
+$paragraph-indent           : false;
 $indent-var                 : 1.3em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco",
+                              "Roboto", "Segoe UI", "Helvetica Neue",
+                              "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* sans serif typefaces */
@@ -33,49 +36,78 @@ $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
 /* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.563em;  // ~25.008px
-$type-size-4                : 1.25em;   // ~20px
-$type-size-5                : 1em;      // ~16px
-$type-size-6                : 0.75em;   // ~12px
-$type-size-7                : 0.6875em; // ~11px
-$type-size-8                : 0.625em;  // ~10px
+$type-size-1                : 2.441em;
+$type-size-2                : 1.953em;
+$type-size-3                : 1.563em;
+$type-size-4                : 1.25em;
+$type-size-5                : 1em;
+$type-size-6                : 0.75em;
+$type-size-7                : 0.6875em;
+$type-size-8                : 0.625em;
 
 /* masthead properties */
 $masthead-height            : 70px;
 
-/* Sidebar properties */
+/* sidebar properties */
 $sidebar-screen-min-width   : 1024px;
 $sidebar-link-max-width     : 250px;
 
 
-
 /*
-   Colors
+   Rice color system
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* Official primary colors */
+$rice-blue                  : #00205b;
+$rice-gray                  : #7c7e7f;
+$rice-white                 : #ffffff;
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+/* Supporting tints */
+$rice-blue-dark             : mix(#000, $rice-blue, 18%);
+$rice-blue-darker           : mix(#000, $rice-blue, 32%);
+$rice-blue-light            : mix(#fff, $rice-blue, 78%);
+$rice-blue-lighter          : mix(#fff, $rice-blue, 92%);
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$rice-gray-dark             : mix(#000, $rice-gray, 35%);
+$rice-gray-darker           : mix(#000, $rice-gray, 55%);
+$rice-gray-light            : mix(#fff, $rice-gray, 55%);
+$rice-gray-lighter          : mix(#fff, $rice-gray, 88%);
 
-/* brands */
-$behance-color              : #1769FF;
+
+/*
+   Theme colors
+   ========================================================================== */
+
+$gray                       : $rice-gray;
+$dark-gray                  : $rice-gray-dark;
+$darker-gray                : $rice-gray-darker;
+$light-gray                 : $rice-gray-light;
+$lighter-gray               : $rice-gray-lighter;
+
+$body-color                 : $rice-white;
+$background-color           : $rice-white;
+
+$code-background-color      : #f7f8fa;
+$code-background-color-dark : $rice-blue-lighter;
+
+$text-color                 : #333333;
+$border-color               : $rice-gray-lighter;
+
+/* Main theme accent */
+$primary-color              : $rice-blue;
+
+/* Status colors */
+$success-color              : #357a5b;
+$warning-color              : #a86700;
+$danger-color               : #a13d3d;
+$info-color                 : $rice-blue;
+
+
+/*
+   Brand colors
+   ========================================================================== */
+
+$behance-color              : #1769ff;
 $bluesky-color              : #1184fe;
 $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
@@ -101,12 +133,17 @@ $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
 
-/* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+/*
+   Links
+   ========================================================================== */
+
+$link-color                 : $rice-blue;
+$link-color-hover           : $rice-blue-dark;
+$link-color-visited         : $rice-blue;
+
+/* White text on Rice blue masthead */
+$masthead-link-color        : $rice-white;
+$masthead-link-color-hover  : rgba($rice-white, 0.8);
 
 
 /*
@@ -114,19 +151,13 @@ $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
    ========================================================================== */
 
 @include breakpoint-set("to ems", true);
-/*
-$small                      : 400px;
-$medium                     : 500px;
-$medium-wide                : 550px;
-$large                      : 1200px;
-$x-large                    : 1800px;
-*/
 
 $small                      : 600px !default;
 $medium                     : 768px !default;
 $medium-wide                : 900px !default;
 $large                      : 925px !default;
 $x-large                    : 1280px !default;
+
 
 /*
    Grid
@@ -145,12 +176,6 @@ $susy: (
   gutter-position: after,
   container: $large,
   global-box-sizing: border-box,
-  // debug: (
-  //   image: show,
-  //   color: blue,
-  //   output: overlay,
-  //   toggle: top right,
-  // ),
 );
 
 
@@ -158,8 +183,8 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$border-radius              : 6px;
+$box-shadow                 : 0 1px 3px rgba(0, 32, 91, 0.12);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
