@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Welcome"
 excerpt: " "
 author_profile: true
 redirect_from: 
@@ -8,12 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a postdoctoral research associate at Caltech, co-advised by [Prof. William Clemons](http://clemonslab.caltech.edu) and [Prof. Richard Murray](https://murray.cds.caltech.edu/Main_Page). My research interest is enabling biology by design, creating synthetic biological systems with a defined purpose.
-
-Before joining Caltech, I received my Ph.D. in Chemical & Biomolecular Engineering from [Prof. Mark Styczynski](https://sites.gatech.edu/styczynski/)'s lab at Georgia Tech, where I focused on developing cell-free biosensors for point-of-care diagnostics. I earned my B.S. in Chemical & Biomolecular Engineering from Cornell University, where I was first introduced to synthetic biology in [Prof. Julius Lucks](https://luckslab.org)'s lab focused on developing RNA-based genetic regulators. 
-
-Please refer to the [Publications page](/publications) for more details about my research background.
-
-My research interests include cell-free synthetic biology, protein self-assembly, biosensor diagnostics, and precision medicine.
-
-Check out my research section for my long-term research interests in [*Biology by Design*](/research/)
+Welcome to the Zhang Lab at Rice Chemical and Biomolecular Engineering (ChBE). We use cell-free synthetic biology to expand our ability to engineer biological systems beyond the constraints set by living cells. Our research integrates innovations in cell-free expression platforms with application-driven biotechnology development, where advances in each continually inform the other. Our initial research program includes the development of platforms, diagnostics, and therapeutics for healthcare applications.
