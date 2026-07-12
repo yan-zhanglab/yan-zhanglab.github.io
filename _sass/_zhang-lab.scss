@@ -10,70 +10,46 @@ $rice-white: #ffffff;
 
 
 /* =======================================================
-   Rice blue masthead
+   Rice Blue Navigation Bar
    ======================================================= */
 
 .masthead {
-  background-color: $rice-blue;
-  border-bottom: none;
+  background: #00205B !important;
+  border-bottom: none !important;
 }
 
-.masthead__inner-wrap,
 .greedy-nav {
-  background-color: $rice-blue;
+  background: #00205B !important;
 }
 
-/* Site title and navigation links */
-.site-title,
-.greedy-nav a,
-.masthead__menu-item a {
-  color: $rice-white !important;
-}
-
-.site-title:visited,
-.greedy-nav a:visited,
-.masthead__menu-item a:visited {
-  color: $rice-white !important;
-}
-
-.site-title:hover,
-.site-title:focus,
-.greedy-nav a:hover,
-.greedy-nav a:focus,
-.masthead__menu-item a:hover,
-.masthead__menu-item a:focus {
-  color: rgba(255, 255, 255, 0.8) !important;
-}
-
-/* Mobile navigation menu */
+.greedy-nav,
+.greedy-nav .visible-links,
 .greedy-nav .hidden-links {
-  background-color: $rice-blue;
-  border-color: rgba(255, 255, 255, 0.25);
+  background: #00205B !important;
 }
 
-.greedy-nav .hidden-links::before {
-  border-color: transparent transparent $rice-blue;
-}
-
+.greedy-nav a,
+.greedy-nav .site-title,
+.greedy-nav .visible-links a,
 .greedy-nav .hidden-links a {
-  color: $rice-white !important;
+  color: white !important;
 }
 
-.greedy-nav .hidden-links a:hover,
-.greedy-nav .hidden-links a:focus {
-  color: rgba(255, 255, 255, 0.8) !important;
-  background-color: rgba(255, 255, 255, 0.08);
+.greedy-nav a:hover,
+.greedy-nav .site-title:hover,
+.greedy-nav .visible-links a:hover,
+.greedy-nav .hidden-links a:hover {
+  color: rgba(255,255,255,0.8) !important;
 }
 
-/* Mobile menu button */
 .greedy-nav button {
-  color: $rice-white;
+  color: white !important;
 }
 
 .greedy-nav .navicon,
 .greedy-nav .navicon::before,
 .greedy-nav .navicon::after {
-  background: $rice-white;
+  background: white !important;
 }
 
 
