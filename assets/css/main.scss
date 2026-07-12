@@ -39,3 +39,23 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Rice University colors */
+$rice-blue: #00205B;
+$rice-gray: #7C7E7F;
+$rice-light-gray: #E7E7E7;
+$rice-white: #FFFFFF;
+
+/* Custom overrides below */
+a {
+  color: $rice-blue;
+
+  &:visited {
+    color: $rice-blue;
+  }
+
+  &:hover,
+  &:focus {
+    color: darken($rice-blue, 10%);
+  }
+}
