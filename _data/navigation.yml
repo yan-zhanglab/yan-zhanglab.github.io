@@ -8,14 +8,11 @@ main:
   - title: "Research"
     url: /research/
 
-  - title: "CV"
-    url: /files/YZ_CV.pdf
-
   - title: "Publications"
     url: /publications/
 
-  - title: "Behind the Paper"
-    url: /behind_the_paper/
+  - title: "News"
+    url: /news/
 
-  - title: "Talks"
-    url: /talks/
+  - title: "Members"
+    url: members
