@@ -1,6 +1,93 @@
 $rice-blue: #00205b;
 $rice-gray: #7c7e7f;
 $rice-light-gray: #e7e7e7;
+$rice-white: #ffffff;
+
+/* Site-wide Rice branding */
+
+body {
+  color: #333;
+}
+
+a,
+.page__content a,
+.archive a,
+.sidebar a {
+  color: $rice-blue;
+}
+
+a:visited,
+.page__content a:visited,
+.archive a:visited,
+.sidebar a:visited {
+  color: $rice-blue;
+}
+
+a:hover,
+a:focus,
+.page__content a:hover,
+.page__content a:focus {
+  color: darken($rice-blue, 10%);
+}
+
+h1,
+h2,
+h3,
+h4,
+.page__title,
+.archive__item-title {
+  color: $rice-blue;
+}
+
+/* Top navigation */
+.masthead,
+.greedy-nav {
+  background: $rice-white;
+}
+
+.greedy-nav a,
+.masthead__menu-item a,
+.site-title {
+  color: $rice-blue;
+}
+
+.greedy-nav a:hover,
+.masthead__menu-item a:hover,
+.site-title:hover {
+  color: darken($rice-blue, 10%);
+}
+
+/* Buttons */
+.btn,
+.btn--primary {
+  background-color: $rice-blue;
+  border-color: $rice-blue;
+  color: $rice-white;
+}
+
+.btn:hover,
+.btn:focus,
+.btn--primary:hover,
+.btn--primary:focus {
+  background-color: darken($rice-blue, 8%);
+  border-color: darken($rice-blue, 8%);
+  color: $rice-white;
+}
+
+/* Dividers */
+hr {
+  border-color: $rice-light-gray;
+}
+
+/* Footer */
+.page__footer {
+  background-color: $rice-blue;
+  color: $rice-white;
+}
+
+.page__footer a {
+  color: $rice-white;
+}
 
 .publication-grid {
   display: grid;
