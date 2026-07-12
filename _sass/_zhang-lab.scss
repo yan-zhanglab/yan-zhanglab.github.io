@@ -252,3 +252,29 @@ $rice-white: #ffffff;
 .greedy-nav .navicon::after {
   background-color: $rice-white !important;
 }
+
+/* =======================================================
+   Rice blue footer
+   ======================================================= */
+
+.page__footer {
+  background-color: $rice-blue !important;
+  color: $rice-white !important;
+  border-top: none !important;
+}
+
+.page__footer,
+.page__footer-follow,
+.page__footer-copyright {
+  color: $rice-white !important;
+}
+
+.page__footer a,
+.page__footer a:visited {
+  color: $rice-white !important;
+}
+
+.page__footer a:hover,
+.page__footer a:focus {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
