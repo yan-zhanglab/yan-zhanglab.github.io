@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to the Zhang Lab at Rice Chemical and Biomolecular Engineering"
+title: "Welcome to the Zhang Lab"
 excerpt: " "
 author_profile: true
 redirect_from: 
