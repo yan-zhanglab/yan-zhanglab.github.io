@@ -1,93 +1,85 @@
+/* =======================================================
+   Zhang Lab custom styling
+   ======================================================= */
+
+/* Rice University colors */
 $rice-blue: #00205b;
 $rice-gray: #7c7e7f;
 $rice-light-gray: #e7e7e7;
 $rice-white: #ffffff;
 
-/* Site-wide Rice branding */
 
-body {
-  color: #333;
+/* =======================================================
+   Rice blue masthead
+   ======================================================= */
+
+.masthead {
+  background-color: $rice-blue;
+  border-bottom: none;
 }
 
-a,
-.page__content a,
-.archive a,
-.sidebar a {
-  color: $rice-blue;
-}
-
-a:visited,
-.page__content a:visited,
-.archive a:visited,
-.sidebar a:visited {
-  color: $rice-blue;
-}
-
-a:hover,
-a:focus,
-.page__content a:hover,
-.page__content a:focus {
-  color: darken($rice-blue, 10%);
-}
-
-h1,
-h2,
-h3,
-h4,
-.page__title,
-.archive__item-title {
-  color: $rice-blue;
-}
-
-/* Top navigation */
-.masthead,
+.masthead__inner-wrap,
 .greedy-nav {
+  background-color: $rice-blue;
+}
+
+/* Site title and navigation links */
+.site-title,
+.greedy-nav a,
+.masthead__menu-item a {
+  color: $rice-white !important;
+}
+
+.site-title:visited,
+.greedy-nav a:visited,
+.masthead__menu-item a:visited {
+  color: $rice-white !important;
+}
+
+.site-title:hover,
+.site-title:focus,
+.greedy-nav a:hover,
+.greedy-nav a:focus,
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Mobile navigation menu */
+.greedy-nav .hidden-links {
+  background-color: $rice-blue;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.greedy-nav .hidden-links::before {
+  border-color: transparent transparent $rice-blue;
+}
+
+.greedy-nav .hidden-links a {
+  color: $rice-white !important;
+}
+
+.greedy-nav .hidden-links a:hover,
+.greedy-nav .hidden-links a:focus {
+  color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Mobile menu button */
+.greedy-nav button {
+  color: $rice-white;
+}
+
+.greedy-nav .navicon,
+.greedy-nav .navicon::before,
+.greedy-nav .navicon::after {
   background: $rice-white;
 }
 
-.greedy-nav a,
-.masthead__menu-item a,
-.site-title {
-  color: $rice-blue;
-}
 
-.greedy-nav a:hover,
-.masthead__menu-item a:hover,
-.site-title:hover {
-  color: darken($rice-blue, 10%);
-}
-
-/* Buttons */
-.btn,
-.btn--primary {
-  background-color: $rice-blue;
-  border-color: $rice-blue;
-  color: $rice-white;
-}
-
-.btn:hover,
-.btn:focus,
-.btn--primary:hover,
-.btn--primary:focus {
-  background-color: darken($rice-blue, 8%);
-  border-color: darken($rice-blue, 8%);
-  color: $rice-white;
-}
-
-/* Dividers */
-hr {
-  border-color: $rice-light-gray;
-}
-
-/* Footer */
-.page__footer {
-  background-color: $rice-blue;
-  color: $rice-white;
-}
-
-.page__footer a {
-  color: $rice-white;
-}
+/* =======================================================
+   Publication cards
+   ======================================================= */
 
 .publication-grid {
   display: grid;
@@ -100,7 +92,7 @@ hr {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background: #fff;
+  background: $rice-white;
   border: 1px solid $rice-light-gray;
   border-radius: 10px;
   transition:
@@ -152,13 +144,14 @@ hr {
   text-decoration: none;
 }
 
-.publication-card__title a:hover {
+.publication-card__title a:hover,
+.publication-card__title a:focus {
   text-decoration: underline;
 }
 
 .publication-card__authors {
   margin: 0 0 0.8rem;
-  color: #555;
+  color: #555555;
   font-size: 0.82rem;
   line-height: 1.45;
 }
@@ -187,11 +180,21 @@ hr {
   text-decoration: none;
 }
 
+.publication-card__links a:hover,
+.publication-card__links a:focus {
+  text-decoration: underline;
+}
+
+
+/* =======================================================
+   Individual publication pages
+   ======================================================= */
+
 .publication-detail-figure {
   margin: 2rem 0 2.5rem;
   padding: 1rem;
-  background: #fff;
-  border: 1px solid #e7e7e7;
+  background: $rice-white;
+  border: 1px solid $rice-light-gray;
   border-radius: 10px;
   text-align: center;
 }
@@ -206,13 +209,14 @@ hr {
 
 .publication-publisher {
   margin-top: -0.5rem;
-  color: #7c7e7f;
+  color: $rice-gray;
   font-size: 0.9rem;
 }
 
-.publication-card__links a:hover {
-  text-decoration: underline;
-}
+
+/* =======================================================
+   Responsive layout
+   ======================================================= */
 
 @media (max-width: 760px) {
   .publication-grid {
