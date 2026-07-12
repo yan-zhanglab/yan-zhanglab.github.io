@@ -254,3 +254,17 @@ $rice-white: #ffffff;
   background: transparent !important;
   margin-bottom: 0 !important;
 }
+
+/* =======================================================
+   Hyperlink colors
+   ======================================================= */
+
+a,
+a:visited {
+  color: $rice-blue;
+}
+
+a:hover,
+a:focus {
+  color: darken($rice-blue, 10%);
+}
