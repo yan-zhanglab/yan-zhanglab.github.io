@@ -1,7 +1,7 @@
 ---
 permalink: /research/
 title: "Research Interest"
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
