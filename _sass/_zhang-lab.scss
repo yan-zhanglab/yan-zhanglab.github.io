@@ -203,3 +203,52 @@ $rice-white: #ffffff;
     height: auto;
   }
 }
+
+/* =======================================================
+   Responsive layout
+   ======================================================= */
+
+@media (max-width: 760px) {
+  .publication-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-card__image {
+    height: auto;
+  }
+}
+
+/* =======================================================
+   Force Rice blue navigation bar
+   ======================================================= */
+
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links {
+  background-color: $rice-blue !important;
+}
+
+.masthead a,
+.masthead a:visited,
+.greedy-nav a,
+.greedy-nav a:visited,
+.greedy-nav .site-title,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a {
+  color: $rice-white !important;
+}
+
+.masthead a:hover,
+.masthead a:focus,
+.greedy-nav a:hover,
+.greedy-nav a:focus {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.greedy-nav .navicon,
+.greedy-nav .navicon::before,
+.greedy-nav .navicon::after {
+  background-color: $rice-white !important;
+}
