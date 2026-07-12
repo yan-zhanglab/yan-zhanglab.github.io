@@ -15,17 +15,6 @@
 <body>
 <p class="p1"><span class="s1">&lt;article class="publication-card"&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% if post.header.teaser %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;a class="publication-card__image-link"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>href="{{ post.url | relative_url }}"&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;img</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>class="publication-card__image"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>src="{{ '/images/' | append: post.header.teaser | relative_url }}"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>alt="{{ post.title | escape }}"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="publication-card__content"&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;p class="publication-card__meta"&gt;</span></p>
@@ -38,37 +27,11 @@
 <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/h2&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if post.authors %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p class="publication-card__authors"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{ post.authors }}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% if post.summary %}</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p class="publication-card__summary"&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{ post.summary }}</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% elsif post.excerpt %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="publication-card__summary"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>{{ post.excerpt | strip_html | truncatewords: 32 }}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="publication-card__links"&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;a href="{{ post.url | relative_url }}"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>Details</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% if post.paperurl %}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a href="{{ post.paperurl }}"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">           </span>target="_blank"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">           </span>rel="noopener"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>Paper</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>{% endif %}</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 <p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
