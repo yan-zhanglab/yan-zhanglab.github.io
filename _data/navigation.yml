@@ -8,11 +8,11 @@ main:
   - title: "Research"
     url: /research/
 
+  - title: "Members"
+    url: members
+
   - title: "Publications"
     url: /publications/
 
   - title: "News"
     url: /news/
-
-  - title: "Members"
-    url: members
