@@ -295,10 +295,10 @@ a:focus {
 .member-card__image {
   display: block;
   width: 100%;
-  height: 260px;
-  margin: 0;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center top;
+  margin: 0;
 }
 
 .member-card__content {
