@@ -3,7 +3,7 @@ title: "Yan Zhang"
 position: "Principal Investigator"
 status: current
 order: 1
-image: "/images/profile.png"
+image: "/images/YanZhangProfile.png"
 linkedin: "https://www.linkedin.com/in/yzhang952/"
 email: "yz473@rice.edu"
 excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering at Rice University."
