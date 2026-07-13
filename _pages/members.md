@@ -11,20 +11,28 @@ author_profile: false
 
 <div class="member-grid">
   {% for member in current_members %}
-    {% include member-card.html member=member %}
+    <article class="member-card">
+
+      {% if member.image %}
+        <img
+          class="member-card__image"
+          src="{{ member.image | relative_url }}"
+          alt="{{ member.title }}"
+        >
+      {% endif %}
+
+      <div class="member-card__content">
+        <h2 class="member-card__name">{{ member.title }}</h2>
+
+        {% if member.position %}
+          <p class="member-card__position">{{ member.position }}</p>
+        {% endif %}
+
+        {% if member.excerpt %}
+          <p class="member-card__bio">{{ member.excerpt }}</p>
+        {% endif %}
+      </div>
+
+    </article>
   {% endfor %}
 </div>
-
-{% assign alumni = site.members
-  | where: "status", "alumni"
-  | sort: "order" %}
-
-{% if alumni.size > 0 %}
-<h2>Alumni</h2>
-
-<div class="member-grid">
-  {% for member in alumni %}
-    {% include member-card.html member=member %}
-  {% endfor %}
-</div>
-{% endif %}
