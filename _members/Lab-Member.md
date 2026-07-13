@@ -30,10 +30,9 @@ My goal is to help every trainee develop into an independent scientist capable o
 
 We welcome inquiries from:
 
-- Postdoctoral scholars
+- Postdoctoral scholars 
 - Ph.D. students
 - Undergraduate researchers
-- Visiting researchers
 
 If you are interested in joining the Zhang Lab, please email me with:
 
