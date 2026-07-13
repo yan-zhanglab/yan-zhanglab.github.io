@@ -20,19 +20,18 @@ repository               : "yan-zhanglab/yan-zhanglab.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Yan Zhang"
-  pronouns         : "she/her"  
-  bio              : "Incoming Assistant Professor in Rice ChBE"
-  email		   : yz473@rice.edu
+  avatar: "profile.png"
+  name: "Yan Zhang"
+  pronouns: "she/her"
+  bio: "Incoming Assistant Professor in Rice ChBE"
+  email: "yz473@rice.edu"
 
   # Academic websites
-  googlescholar    : "https://scholar.google.com/citations?user=nmgE5hkAAAAJ&hl=en&authuser=2"   
+  googlescholar: "https://scholar.google.com/citations?user=nmgE5hkAAAAJ&hl=en&authuser=2"
 
   # Social media
-  twitter          : "@YZhang952"
-  linkedin         : "yzhang952"
+  twitter: "@YZhang952"
+  linkedin: "yzhang952"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -173,24 +172,28 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# These settings control the types of collections used by the template
+# Collections
 collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+
   publications:
     output: true
     permalink: /:collection/:path/
+
   portfolio:
     output: true
     permalink: /:collection/:path/
+
   talks:
     output: true
     permalink: /:collection/:path/
+
   members:
     output: true
     permalink: /:collection/:path/
+
   news:
     output: true
     permalink: /:collection/:path/
