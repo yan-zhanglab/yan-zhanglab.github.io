@@ -4,5 +4,5 @@ position: "Grad Student"
 status: current
 order: 20
 excerpt: ""
-image: "/images/owl.png"
+image: "/images/Rice_Owl.png"
 ---
