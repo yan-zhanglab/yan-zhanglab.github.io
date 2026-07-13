@@ -34,12 +34,12 @@ Cornell University (2017)
 
 ## Research Interests
 
-- Cell-free synthetic biology
-- Synthetic cells
-- Molecular diagnostics
-- Precision therapeutics
+Cell-free synthetic biology  
+Synthetic cells  
+Molecular diagnostics  
+Precision therapeutics  
 
 ## Contact
-Email: yz473[at]rice[dot]edu
-[LinkedIn](https://www.linkedin.com/in/yzhang952/)
-[Curriculum Vitae](/files/Yan_Zhang_CV.pdf)
+Email: yz473[at]rice[dot]edu  
+[LinkedIn](https://www.linkedin.com/in/yzhang952/)  
+[Curriculum Vitae](/files/Yan_Zhang_CV.pdf)  
