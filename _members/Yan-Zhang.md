@@ -11,7 +11,7 @@ excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering 
 
 ## About
 
-The capabilities of biological engineering are fundamentally shaped by the tools we have to build them. My lab develops cell-free synthetic biology platforms to overcome many of the survival and resource constraints imposed by living cells, expanding what we can design, build, and study in biology. Our long-term vision is to design, build, and deploy biotechnology with the predictability expected of an engineering discipline.
+What we can build with biotechnology is fundamentally shaped by the tools we have available. My lab develops cell-free synthetic biology platforms to overcome many of the survival and resource constraints imposed by living cells, expanding what we can build with biology. Our long-term vision is to design, build, and deploy biotechnology with the predictability expected of an engineering discipline.
 
 ## Professional Appointments
 
@@ -27,10 +27,10 @@ California Institute of Technology (2022-2024)
 ## Education
 
 **Ph.D., Chemical and Biomolecular Engineering**  
-Georgia Institute of Technology
+Georgia Institute of Technology (2022)
 
 **B.S., Chemical and Biomolecular Engineering**  
-Cornell University
+Cornell University (2017)
 
 ## Research Interests
 
