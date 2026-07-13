@@ -1,5 +1,5 @@
 ---
-title: "Yan Zhang"
+title: "Yan Zhang, Ph.D."
 position: "Principal Investigator"
 status: current
 order: 1
