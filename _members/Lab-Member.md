@@ -1,13 +1,11 @@
 ---
-title: "Join Us"
+title: "Join Us!"
 position: "All positions open"
 status: current
 order: 20
 excerpt: ""
 image: "/images/Rice_Owl.png"
 ---
-
-# Join the Lab
 
 The Zhang Lab is always looking for curious, collaborative, and highly motivated researchers. We welcome students and researchers from diverse backgrounds across engineering and the natural sciences. What matters most is intellectual curiosity, creativity, and a willingness to learn.
 
