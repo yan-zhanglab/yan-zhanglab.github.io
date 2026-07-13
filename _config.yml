@@ -259,9 +259,10 @@ defaults:
       path: ""
       type: members
     values:
-      layout: single
+      layout: member
       author_profile: false
-      share: true
+      share: false
+      comments: false
 
 
 # Sass/SCSS
