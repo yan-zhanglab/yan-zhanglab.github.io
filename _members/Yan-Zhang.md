@@ -11,30 +11,25 @@ excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering 
 
 ## About
 
-I am an incoming Assistant Professor in the Department of Chemical and Biomolecular Engineering at Rice University. My laboratory develops cell-free synthetic biology platforms for biotechnology, synthetic genome engineering, and precision phage therapeutics.
+The capabilities of biological engineering are fundamentally shaped by the tools we have to build them. My lab develops cell-free synthetic biology platforms that overcome many of the survival and resource constraints imposed by living cells, expanding what we can design, build, and study in biology. Our long-term vision is to enable biology to be designed, built, and deployed with the predictability expected of an engineering discipline.
 
-My research combines fundamental platform development with applications in healthcare, agriculture, and biomanufacturing.
+## Professional Appointments
 
-## Affiliations
-
-- Incoming Assistant Professor, Department of Chemical and Biomolecular Engineering, Rice University
-- NIH MOSAIC K99/R00 Scholar
-- Member, Build-a-Cell Network
-- Postdoctoral Scholar, California Institute of Technology
-
-## Research Interests
-
-- Cell-free synthetic biology
-- Host-independent cell-free phage synthesis
-- Synthetic genome design
-- Precision phage therapeutics
-- Protein synthesis systems
-- Bottom-up synthetic biology
+- Incoming Assistant Professor, Department of Chemical and Biomolecular Engineering, Rice University (2027-)
+- NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow, California Institute of Technology (2024-2026)
+- Presidential Postdoctoral Fellow, California Institute of Technology (2022-2024)
 
 ## Education
 
-**Ph.D., Chemical Engineering**  
+**Ph.D., Chemical and Biomolecular Engineering**  
 Georgia Institute of Technology
 
 **B.S., Chemical and Biomolecular Engineering**  
 Cornell University
+
+## Research Interests
+
+- Cell-free synthetic biology
+- Synthetic cells
+- Molecular diagnostics
+- Precision therapeutics
