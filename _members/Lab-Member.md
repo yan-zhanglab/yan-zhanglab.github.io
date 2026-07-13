@@ -34,7 +34,7 @@ We welcome inquiries from:
 - Ph.D. students
 - Undergraduate researchers
 
-If you are interested in joining the Zhang Lab, please email me with:
+If you are interested in joining the Zhang Lab, please email me at yz473[at]rice[dot]edu with:
 
 - Your CV
 - A brief description of your research interests
