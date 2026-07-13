@@ -21,7 +21,7 @@ As a member of the lab, you will:
 
 - Learn techniques spanning molecular biology, synthetic biology, protein engineering, and cell-free systems.
 - Develop independent research ideas and scientific leadership.
-- Collaborate with researchers across Rice University and the broader synthetic biology community.
+- Collaborate with researchers across Rice University and the surrounding Texas Medical Center and the broader synthetic biology community.
 - Contribute to the development of technologies that enable discoveries across biology.
 
 My goal is to help every trainee develop into an independent scientist capable of identifying important problems, designing creative solutions, and communicating their ideas effectively. Lab members are encouraged to ask thoughtful questions, communicate openly, and support one another in a collaborative research environment.
