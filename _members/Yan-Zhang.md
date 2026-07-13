@@ -15,13 +15,13 @@ What we can build with biology is fundamentally shaped by the tools we have avai
 
 ## Professional Appointments
 
-**Incoming Assistant Professor**	
+**Incoming Assistant Professor**  
 Department of Chemical and Biomolecular Engineering, Rice University (2027-)
 
-**NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow**	
+**NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow**  
 California Institute of Technology (2024-2026)
 
-**Presidential Postdoctoral Fellow**	
+**Presidential Postdoctoral Fellow**  
 California Institute of Technology (2022-2024)
 
 ## Education
@@ -38,3 +38,8 @@ Cornell University (2017)
 - Synthetic cells
 - Molecular diagnostics
 - Precision therapeutics
+
+## Contact
+Email: yz473[at]rice[dot]edu
+[LinkedIn](https://www.linkedin.com/in/yzhang952/)
+[Curriculum Vitae](/files/Yan_Zhang_CV.pdf)
