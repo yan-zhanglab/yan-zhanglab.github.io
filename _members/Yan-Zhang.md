@@ -41,5 +41,4 @@ Precision therapeutics
 
 ## Contact
 Email: yz473[at]rice[dot]edu  
-[LinkedIn](https://www.linkedin.com/in/yzhang952/)  
 [Curriculum Vitae](/files/Yan_Zhang_CV.pdf)  
