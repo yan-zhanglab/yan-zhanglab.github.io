@@ -5,10 +5,26 @@ permalink: /members/
 author_profile: false
 ---
 
-<div class="publication-grid">
-  {% assign publications = site.publications | sort: "date" | reverse %}
+{% assign current_members = site.members
+  | where: "status", "current"
+  | sort: "order" %}
 
-  {% for post in publications %}
-    {% include publication-card.html %}
+<div class="member-grid">
+  {% for member in current_members %}
+    {% include member-card.html member=member %}
   {% endfor %}
 </div>
+
+{% assign alumni = site.members
+  | where: "status", "alumni"
+  | sort: "order" %}
+
+{% if alumni.size > 0 %}
+<h2>Alumni</h2>
+
+<div class="member-grid">
+  {% for member in alumni %}
+    {% include member-card.html member=member %}
+  {% endfor %}
+</div>
+{% endif %}
