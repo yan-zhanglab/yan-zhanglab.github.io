@@ -1,0 +1,26 @@
+<article class="member-card">
+  {% if member.image %}
+    <img
+      class="member-card__image"
+      src="{{ member.image | relative_url }}"
+      alt="{{ member.name | escape }}">
+  {% endif %}
+
+  <div class="member-card__content">
+    <h2 class="member-card__name">{{ member.name }}</h2>
+
+    {% if member.role %}
+      <p class="member-card__role">{{ member.role }}</p>
+    {% endif %}
+
+    {% if member.bio %}
+      <p class="member-card__bio">{{ member.bio }}</p>
+    {% endif %}
+
+    {% if member.email %}
+      <a class="member-card__email" href="mailto:{{ member.email }}">
+        Email
+      </a>
+    {% endif %}
+  </div>
+</article>
