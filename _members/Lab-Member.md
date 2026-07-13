@@ -1,6 +1,6 @@
 ---
-title: "Lab Member"
-position: "Grad Student"
+title: "Join Us"
+position: "All positions open"
 status: current
 order: 20
 excerpt: ""
