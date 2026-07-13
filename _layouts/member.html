@@ -2,90 +2,84 @@
 layout: single
 ---
 
-<div class="member-page-layout">
+<div class="member-page">
 
-  <aside class="member-sidebar">
-
-    {% if page.image %}
+  {% if page.image %}
+    <div class="member-page__header">
       <img
-        class="member-sidebar__photo{% if page.image_fit == 'contain' %} member-sidebar__photo--contain{% endif %}"
+        class="member-page__portrait{% if page.image_fit == 'contain' %} member-page__portrait--contain{% endif %}"
         src="{{ page.image | relative_url }}"
         alt="{{ page.title | escape }}"
       >
-    {% endif %}
 
-    <h2 class="member-sidebar__name">{{ page.title }}</h2>
+      <div class="member-page__intro">
+        {% if page.position %}
+          <p class="member-page__position">
+            {{ page.position }}
+          </p>
+        {% endif %}
 
-    {% if page.position %}
-      <p class="member-sidebar__position">{{ page.position }}</p>
-    {% endif %}
+        {% if page.email %}
+          <p>
+            <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+          </p>
+        {% endif %}
 
-    {% if page.sidebar_affiliation %}
-      <div class="member-sidebar__affiliation">
-        {{ page.sidebar_affiliation | markdownify }}
+        {% if page.linkedin %}
+          <p>
+            <a
+              href="{{ page.linkedin }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+          </p>
+        {% endif %}
       </div>
-    {% endif %}
-
-    <div class="member-sidebar__links">
-      {% if page.email %}
-        <a href="mailto:{{ page.email }}">Email</a>
-      {% endif %}
-
-      {% if page.linkedin %}
-        <a
-          href="{{ page.linkedin }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-      {% endif %}
-
-      {% if page.scholar %}
-        <a
-          href="{{ page.scholar }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Google Scholar
-        </a>
-      {% endif %}
     </div>
+  {% endif %}
 
-  </aside>
-
-  <main class="member-page-content">
-
-    {% if page.affiliation %}
-      <section class="member-page__section">
-        <h2>Current Affiliation</h2>
+  {% if page.affiliation %}
+    <section class="member-page__section">
+      <h2>Current Affiliation</h2>
+      <div>
         {{ page.affiliation | markdownify }}
-      </section>
-    {% endif %}
+      </div>
+    </section>
+  {% endif %}
 
-    {% if page.projects %}
-      <section class="member-page__section">
-        <h2>Projects</h2>
+  {% if page.projects %}
+    <section class="member-page__section">
+      <h2>Projects</h2>
+      <div>
         {{ page.projects | markdownify }}
-      </section>
-    {% endif %}
+      </div>
+    </section>
+  {% endif %}
 
-    {% if page.education %}
-      <section class="member-page__section">
-        <h2>Education</h2>
+  {% if page.education %}
+    <section class="member-page__section">
+      <h2>Education</h2>
+      <div>
         {{ page.education | markdownify }}
-      </section>
-    {% endif %}
+      </div>
+    </section>
+  {% endif %}
 
-    {% if page.short_bio %}
-      <section class="member-page__section">
-        <h2>Short Bio</h2>
+  {% if page.short_bio %}
+    <section class="member-page__section">
+      <h2>Short Bio</h2>
+      <div>
         {{ page.short_bio | markdownify }}
-      </section>
-    {% endif %}
+      </div>
+    </section>
+  {% endif %}
 
-    {{ content }}
-
-  </main>
+  {% if content and content != empty %}
+    <div class="member-page__additional">
+      {{ content }}
+    </div>
+  {% endif %}
 
 </div>
