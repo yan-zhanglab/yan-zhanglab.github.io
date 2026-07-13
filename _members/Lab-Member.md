@@ -11,9 +11,7 @@ The Zhang Lab is always looking for curious, collaborative, and highly motivated
 
 ## Our Philosophy
 
-Our lab is built around a simple idea: what we can build with biology is fundamentally shaped by the tools we have available. Rather than applying existing methods to individual problems, we develop new experimental platforms that expand what is possible in biological engineering.
-
-We believe the best research tools not only solve today's challenges but also enable entirely new scientific questions to be asked. Our long-term vision is to make biology a more predictable engineering discipline by developing technologies that simplify the design, build, and deployment of biological systems.
+Our lab is built around a simple idea: what we can build with biology is fundamentally shaped by the tools we have available. We develop new experimental platforms that expand what is possible in biological engineering, and we believe the best research tools not only solve today's challenges but also enable entirely new scientific questions of tomorrow. Our long-term vision is to make biology a more predictable engineering discipline by developing technologies that simplify the design, build, and deployment of biological systems.
 
 ## What You Can Expect
 
