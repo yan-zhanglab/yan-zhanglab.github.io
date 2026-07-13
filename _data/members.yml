@@ -1,0 +1,27 @@
+- name: "Yan Zhang"
+  role: "Principal Investigator"
+  image: "/images/members/yan-zhang.jpg"
+  bio: "Incoming Assistant Professor in Chemical and Biomolecular Engineering."
+  email: "yz473@rice.edu"
+  order: 0
+
+- name: "First Graduate Student"
+  role: "Ph.D. Student"
+  image: "/images/members/student-one.jpg"
+  bio: "Research interests in cell-free synthetic biology and diagnostics."
+  email: ""
+  order: 10
+
+- name: "Second Graduate Student"
+  role: "Ph.D. Student"
+  image: "/images/members/student-two.jpg"
+  bio: "Research interests in synthetic phage engineering."
+  email: ""
+  order: 20
+
+- name: "Undergraduate Researcher"
+  role: "Undergraduate Researcher"
+  image: "/images/members/student-three.jpg"
+  bio: "Research interests in biotechnology development."
+  email: ""
+  order: 30
