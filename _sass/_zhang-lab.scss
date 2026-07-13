@@ -273,68 +273,107 @@ a:focus {
    Individual member pages
    ======================================================= */
 
-.member-page__header {
+.member-page-layout {
   display: grid;
-  grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
-  gap: 2rem;
-  align-items: end;
-  margin-bottom: 2.5rem;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 3rem;
+  align-items: start;
+  margin-top: 1.5rem;
 }
 
-.member-page__portrait {
+.member-sidebar {
+  position: sticky;
+  top: 6rem;
+}
+
+.member-sidebar__photo {
   display: block;
-  width: 100%;
-  aspect-ratio: 3 / 4;
-  margin: 0;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 1rem;
+  border-radius: 8px;
   object-fit: cover;
-  object-position: center top;
-  border-radius: 10px;
+  object-position: center;
 }
 
-.member-page__portrait--contain {
+.member-sidebar__photo--contain {
   object-fit: contain;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 1px solid $rice-light-gray;
 }
 
-.member-page__position {
-  margin-top: 0;
-  color: $rice-gray;
-  font-size: 1.1rem;
-  font-weight: 700;
+.member-sidebar__name {
+  margin: 0 0 0.3rem;
+  color: $rice-blue;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
-.member-page__intro p {
+.member-sidebar__position {
+  margin: 0 0 0.8rem;
+  color: $rice-gray;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.member-sidebar__affiliation {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.member-sidebar__affiliation p {
   margin-bottom: 0.5rem;
 }
 
+.member-sidebar__links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.member-sidebar__links a {
+  color: $rice-blue;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.member-sidebar__links a:hover {
+  text-decoration: underline;
+}
+
+.member-page-content {
+  min-width: 0;
+}
+
 .member-page__section {
-  padding: 1.5rem 0;
-  border-top: 1px solid $rice-light-gray;
+  padding: 0 0 1.6rem;
+  margin-bottom: 1.6rem;
+  border-bottom: 1px solid $rice-light-gray;
 }
 
 .member-page__section h2 {
   margin-top: 0;
   color: $rice-blue;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
 }
 
-.member-page__section > div > :last-child {
+.member-page__section > :last-child {
   margin-bottom: 0;
 }
 
-.member-page__additional {
-  padding-top: 1.5rem;
-  border-top: 1px solid $rice-light-gray;
-}
-
 @media (max-width: 700px) {
-  .member-page__header {
+  .member-page-layout {
     grid-template-columns: 1fr;
-    align-items: start;
+    gap: 2rem;
   }
 
-  .member-page__portrait {
-    max-width: 320px;
+  .member-sidebar {
+    position: static;
   }
 }
