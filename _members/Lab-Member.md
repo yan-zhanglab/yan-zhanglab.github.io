@@ -13,7 +13,7 @@ The Zhang Lab is always looking for curious, collaborative, and highly motivated
 
 Our lab is built around a simple idea: what we can build with biology is fundamentally shaped by the tools we have available. We develop new experimental platforms that expand what is possible in biological engineering because we believe the best research tools not only solve today's challenges but also enable entirely new scientific questions to be asked.
 
-Our current research spans cell-free synthetic biology, synthetic genomes, molecular diagnostics, and precision therapeutics. Together, these address important challenges in infectious disease and cancer and advance broadly applicable engineering platforms for biological research and biotechnology.
+Our current research spans cell-free synthetic biology, synthetic genomes, molecular diagnostics, and precision therapeutics. Together, these address important challenges in human health and advance broadly applicable engineering platforms for biological research and biotechnology.
 
 ## What You Can Expect
 
