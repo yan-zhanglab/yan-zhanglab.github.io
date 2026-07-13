@@ -11,17 +11,17 @@ excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering 
 
 ## About
 
-What we can build with biotechnology is fundamentally shaped by the tools we have available. My lab develops cell-free synthetic biology platforms to overcome many of the survival and resource constraints imposed by living cells, expanding what we can build with biology. Our long-term vision is to design, build, and deploy biotechnology with the predictability expected of an engineering discipline.
+What we can build with biology is fundamentally shaped by the tools we have available. My lab develops cell-free synthetic biology platforms to overcome survival and resource constraints commonly found in living cells, expanding what we can build with biology. Our long-term vision is to design, build, and deploy biotechnology with the predictability expected of an engineering discipline.
 
 ## Professional Appointments
 
-**Incoming Assistant Professor** 
+**Incoming Assistant Professor**	
 Department of Chemical and Biomolecular Engineering, Rice University (2027-)
 
-**NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow** 
+**NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow**	
 California Institute of Technology (2024-2026)
 
-**Presidential Postdoctoral Fellow**
+**Presidential Postdoctoral Fellow**	
 California Institute of Technology (2022-2024)
 
 ## Education
