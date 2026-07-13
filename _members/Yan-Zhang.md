@@ -5,16 +5,10 @@ status: current
 order: 1
 
 image: "/images/profile.png"
-
-email: "yz473@rice.edu"
 linkedin: "https://www.linkedin.com/in/yzhang952/"
-scholar: "https://scholar.google.com/citations?user=nmgE5hkAAAAJ"
+email: "yz473@rice.edu"
 
 excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering at Rice University."
-
-sidebar_affiliation: |
-  Department of Chemical and Biomolecular Engineering  
-  Rice University
 
 affiliation: |
   Incoming Assistant Professor  
@@ -25,15 +19,15 @@ projects: |
   - Cell-free synthetic biology
   - Host-independent cell-free phage synthesis
   - Synthetic genome design
-  - Precision phage engineering
+  - Precision phage therapeutics
 
 education: |
-  **Ph.D., Chemical Engineering**  
+  **Ph.D., Chemical and Biomolecular Engineering**  
   Georgia Institute of Technology
 
   **B.S., Chemical and Biomolecular Engineering**  
   Cornell University
 
 short_bio: |
-  Yan Zhang develops cell-free synthetic biology platforms for synthetic genome engineering, biotechnology development, and precision phage therapeutics.
+  Yan Zhang develops cell-free synthetic biology platforms for biotechnology, synthetic genome engineering, and precision phage therapeutics. Her research combines fundamental platform development with applications in healthcare, agriculture, and biomanufacturing.
 ---

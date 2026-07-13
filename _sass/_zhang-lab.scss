@@ -273,107 +273,68 @@ a:focus {
    Individual member pages
    ======================================================= */
 
-.member-page-layout {
+.member-page__header {
   display: grid;
-  grid-template-columns: 190px minmax(0, 1fr);
-  gap: 3rem;
-  align-items: start;
-  margin-top: 1.5rem;
+  grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: end;
+  margin-bottom: 2.5rem;
 }
 
-.member-sidebar {
-  position: sticky;
-  top: 6rem;
-}
-
-.member-sidebar__photo {
+.member-page__portrait {
   display: block;
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 1rem;
-  border-radius: 8px;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  margin: 0;
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
+  border-radius: 10px;
 }
 
-.member-sidebar__photo--contain {
+.member-page__portrait--contain {
   object-fit: contain;
-  padding: 0.5rem;
+  padding: 1rem;
   border: 1px solid $rice-light-gray;
 }
 
-.member-sidebar__name {
-  margin: 0 0 0.3rem;
-  color: $rice-blue;
-  font-size: 1.25rem;
-  text-align: center;
-}
-
-.member-sidebar__position {
-  margin: 0 0 0.8rem;
+.member-page__position {
+  margin-top: 0;
   color: $rice-gray;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  line-height: 1.4;
-  text-align: center;
 }
 
-.member-sidebar__affiliation {
-  font-size: 0.85rem;
-  line-height: 1.45;
-  text-align: center;
-}
-
-.member-sidebar__affiliation p {
+.member-page__intro p {
   margin-bottom: 0.5rem;
 }
 
-.member-sidebar__links {
-  display: flex;
-  flex-direction: column;
-  gap: 0.45rem;
-  margin-top: 1rem;
-  text-align: center;
-}
-
-.member-sidebar__links a {
-  color: $rice-blue;
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.member-sidebar__links a:hover {
-  text-decoration: underline;
-}
-
-.member-page-content {
-  min-width: 0;
-}
-
 .member-page__section {
-  padding: 0 0 1.6rem;
-  margin-bottom: 1.6rem;
-  border-bottom: 1px solid $rice-light-gray;
+  padding: 1.5rem 0;
+  border-top: 1px solid $rice-light-gray;
 }
 
 .member-page__section h2 {
   margin-top: 0;
   color: $rice-blue;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
 }
 
-.member-page__section > :last-child {
+.member-page__section > div > :last-child {
   margin-bottom: 0;
 }
 
+.member-page__additional {
+  padding-top: 1.5rem;
+  border-top: 1px solid $rice-light-gray;
+}
+
 @media (max-width: 700px) {
-  .member-page-layout {
+  .member-page__header {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    align-items: start;
   }
 
-  .member-sidebar {
-    position: static;
+  .member-page__portrait {
+    max-width: 320px;
   }
 }
