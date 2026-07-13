@@ -1,25 +1,21 @@
 # Welcome to Jekyll!
 #
-# This config file contains settings that affect the entire site.
-# Restart the local Jekyll server after changing this file.
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
 # Basic Site Settings
-locale: "en-US"
-title: "Zhang Lab"
-title_separator: "-"
-name: &name "Yan Zhang"
-description: &description "personal description"
-url: "https://yan-zhanglab.github.io"
-baseurl: ""
-repository: "yan-zhanglab/yan-zhanglab.github.io"
+locale                   : "en-US"
+title                    : "Zhang Lab"
+title_separator          : "-"
+name                     : &name "Yan Zhang"
+description              : &description "personal description"
+url                      : https://yan-zhanglab.github.io
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "yan-zhanglab/yan-zhanglab.github.io"
 
-# Site Author
-author:
-  avatar: "profile.png"
-  name: "Yan Zhang"
-  pronouns: "she/her"
-  bio: "Incoming Assistant Professor in Rice ChBE"
-  email: "yz473@rice.edu"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
@@ -201,6 +197,7 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+  
 
 
 # These settings control how pages and collections are included in the site
@@ -258,15 +255,16 @@ defaults:
       layout: talk
       author_profile: false
       share: true
-  # _members# _members
-- scope:
-    path: ""
-    type: members
-  values:
-    layout: single
-    author_profile: true
-    share: false
-    comments: false
+  # _members
+  - scope:
+      path: ""
+      type: members
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+
 
 # Sass/SCSS
 sass:
