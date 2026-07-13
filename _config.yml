@@ -255,9 +255,9 @@ defaults:
   # _members
   - scope:
       path: ""
-      type: talks
+      type: members
     values:
-      layout: talk
+      layout: single
       author_profile: false
       share: true
 
