@@ -4,8 +4,8 @@ position: "Principal Investigator"
 status: current
 order: 1
 image: "/images/YanZhangProfile.png"
-linkedin: "https://www.linkedin.com/in/yzhang952/"
 email: "yz473@rice.edu"
+cv: "/files/Yan_Zhang_CV.pdf"
 excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering at Rice University."
 ---
 
@@ -15,9 +15,14 @@ The capabilities of biological engineering are fundamentally shaped by the tools
 
 ## Professional Appointments
 
-- Incoming Assistant Professor, Department of Chemical and Biomolecular Engineering, Rice University (2027-)
-- NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow, California Institute of Technology (2024-2026)
-- Presidential Postdoctoral Fellow, California Institute of Technology (2022-2024)
+**Incoming Assistant Professor** 
+Department of Chemical and Biomolecular Engineering, Rice University (2027-)
+
+**NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow** 
+California Institute of Technology (2024-2026)
+
+**Presidential Postdoctoral Fellow**
+California Institute of Technology (2022-2024)
 
 ## Education
 
