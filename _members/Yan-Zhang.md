@@ -11,7 +11,7 @@ excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering 
 
 ## About
 
-The capabilities of biological engineering are fundamentally shaped by the tools we have to build them. My lab develops cell-free synthetic biology platforms that overcome many of the survival and resource constraints imposed by living cells, expanding what we can design, build, and study in biology. Our long-term vision is to enable biology to be designed, built, and deployed with the predictability expected of an engineering discipline.
+The capabilities of biological engineering are fundamentally shaped by the tools we have to build them. My lab develops cell-free synthetic biology platforms to overcome many of the survival and resource constraints imposed by living cells, expanding what we can design, build, and study in biology. Our long-term vision is to design, build, and deploy biotechnology with the predictability expected of an engineering discipline.
 
 ## Professional Appointments
 
