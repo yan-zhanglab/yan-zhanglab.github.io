@@ -270,7 +270,7 @@ a:focus {
 }
 
 /* =======================================================
-   Member cards
+   Members
    ======================================================= */
 
 .member-grid {
@@ -285,14 +285,10 @@ a:focus {
   flex-direction: column;
   min-width: 0;
   overflow: hidden;
-
   background: $rice-white;
   border: 1px solid $rice-light-gray;
   border-radius: 10px;
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .member-card:hover {
@@ -302,7 +298,6 @@ a:focus {
 
 .member-card__image-link {
   display: block;
-  background: #f5f5f5;
 }
 
 .member-card__image {
@@ -338,17 +333,11 @@ a:focus {
   text-decoration: none;
 }
 
-.member-card__title a:hover,
-.member-card__title a:focus {
-  text-decoration: underline;
-}
-
 .member-card__position {
   margin: 0 0 0.8rem;
   color: $rice-gray;
   font-size: 0.82rem;
   font-weight: 700;
-  line-height: 1.45;
 }
 
 .member-card__summary {
@@ -371,8 +360,7 @@ a:focus {
   text-decoration: none;
 }
 
-.member-card__links a:hover,
-.member-card__links a:focus {
+.member-card__links a:hover {
   text-decoration: underline;
 }
 
