@@ -6,17 +6,110 @@ author_profile: false
 
 {% include base_path %}
 
-Form follows function, and biology is no exception. Yet, for too long, bioengineers have been forcing natural biological forms into human applications, only to wonder why they fail upon deployment. My research program inverts this approach: **I design biological systems in the forms their intended functions require, with a specific focus on bacteriophages, viruses that infect bacteria.**
+---
 
-The need for this approach is urgent. Rising antibiotic resistance and persistent bacterial crop diseases reveal a fundamental limitation of chemical interventions: they cannot evolve along with pathogens. Bacteriophages provide an adaptable solution. They target their hosts specifically, carry genetic material that enables them to evolve in step with pathogens, self-amplify at infection sites, and self-limit when infections cease.
+permalink: /research/
+title: "Research"
+author_profile: false
+---------------------
 
-For a century, phage therapy has remained confined to one-off, special-access uses. The problem is not that phages fail, but that we have been forcing what nature provides into therapeutic contexts they were never designed for. Environmental phages evolved for ecological survival, not clinical and agricultural deployment. This fundamental mismatch creates three critical barriers:
+{% include base_path %}
 
-1. Production barrier: Natural phages require their pathogen hosts for propagation, excluding candidates against unculturable bacteria and creating biosafety challenges.
-2. Deployment barrier: Phages evolved to persist in soil or water lack the properties needed for patient application, restricting treatment efficacy.
-3. Access barrier: Metagenomic sequences reveal vast phage diversity, yet we cannot access and characterize these candidates without their native hosts.
+## Cell-Free Systems
 
-My research program addresses these barriers by engineering phages for therapeutic function from the outset. This requires systematically deconstructing phage-host biology to understand regulatory principles, then reconstructing phages with desired properties. By building systems that replicate cellular gene expression in open, programmable cell-free gene expression platforms, my program can reveal the molecular logic of phage infection and assembly, while developing an adaptive framework to design phage therapeutics.
+Cell-free systems reconstitute the molecular machinery of life outside living cells, transforming biology into an open and programmable engineering platform. By separating biological function from cellular growth and survival, these systems enable rapid design-build-test cycles, precise control over reaction conditions, and access to biological processes that are difficult or impossible to study inside living cells.
 
+Despite substantial progress, current cell-free systems remain limited by their performance, reproducibility, scalability, and dependence on a small number of model organisms. Expanding the capabilities of cell-free biology therefore requires both the development of new experimental platforms and the identification of applications that take advantage of their unique properties.
 
-<img src="{{ site.baseurl }}/images/CoverFigure.png" alt="Description of image" width="800"/>
+**Our laboratory develops next-generation cell-free systems and uses them to create new capabilities in biotechnology.** Our research is organized around two closely connected themes: platform innovation and biotechnology innovation.
+
+<img src="{{ site.baseurl }}/images/CoverFigure.png" alt="Overview of the Zhang Lab cell-free systems research program" class="research-overview-image"/>
+
+---
+
+## Platform Innovation
+
+We develop cell-free expression systems with improved performance, reproducibility, scalability, and biological diversity. Our goal is to establish cell-free systems as broadly accessible and predictive engineering platforms rather than empirically optimized reaction mixtures.
+
+<div class="research-area-grid">
+
+  <div class="research-area-card">
+    <h3><em>E. coli</em> Cell-Free Systems</h3>
+    <p>
+      We engineer lysate-based transcription–translation systems for rapid,
+      scalable, and high-throughput biological prototyping. By identifying the
+      molecular factors that govern reaction performance, we aim to improve
+      system robustness and establish generalizable design principles for
+      cell-free expression.
+    </p>
+  </div>
+
+  <div class="research-area-card">
+    <h3>One-Pot PURE Systems</h3>
+    <p>
+      We develop simplified and scalable methods for producing purified
+      transcription–translation systems. These defined platforms allow us to
+      systematically investigate component interactions, control biochemical
+      composition, and construct cell-free systems with predictable properties.
+    </p>
+  </div>
+
+  <div class="research-area-card">
+    <h3>New Chassis</h3>
+    <p>
+      Most cell-free systems are derived from a narrow range of model organisms.
+      We develop platforms from new biological chassis to access distinct
+      molecular machinery, regulatory programs, and organism-specific
+      capabilities that are unavailable in conventional <em>E. coli</em> systems.
+    </p>
+  </div>
+
+</div>
+
+---
+
+## Biotechnology Innovation
+
+New experimental platforms create opportunities to build technologies that cannot be achieved easily with living cells. We use cell-free systems to study complex biological processes and develop programmable technologies for therapeutics, diagnostics, and bottom-up biological engineering.
+
+<div class="research-area-grid">
+
+  <div class="research-area-card">
+    <h3>Cell-Free Phage Engineering</h3>
+    <p>
+      We develop host-independent platforms for bacteriophage synthesis and
+      engineering. By reconstructing phage gene expression and assembly outside
+      living cells, we seek to uncover the molecular logic of phage replication
+      while enabling the design of phages with properties tailored for
+      therapeutic and agricultural deployment.
+    </p>
+  </div>
+
+  <div class="research-area-card">
+    <h3>Cell-Free Biosensors</h3>
+    <p>
+      We engineer programmable cell-free reactions that detect disease-associated
+      molecules and convert molecular recognition into measurable outputs. These
+      systems provide a flexible foundation for rapid, accessible, and
+      application-specific diagnostic technologies.
+    </p>
+  </div>
+
+  <div class="research-area-card">
+    <h3>Synthetic Cells</h3>
+    <p>
+      We combine cell-free gene expression with synthetic genomes, membranes,
+      and engineered biochemical modules to investigate how complex biological
+      functions emerge from defined components. This bottom-up approach advances
+      both fundamental understanding and the construction of programmable
+      cell-like systems.
+    </p>
+  </div>
+
+</div>
+
+---
+
+## Connecting Platforms and Applications
+
+Our platform and biotechnology efforts continually inform one another. New cell-free capabilities make previously inaccessible applications possible, while application-driven challenges reveal the limitations of existing platforms and motivate the development of better ones. Through this iterative process, we seek to expand what biological systems can be designed, built, and deployed.
