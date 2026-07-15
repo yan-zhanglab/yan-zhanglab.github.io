@@ -18,10 +18,10 @@ What we can build with biology is fundamentally shaped by the tools we have avai
 Department of Chemical and Biomolecular Engineering, Rice University (2027-)
 
 **NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow**  
-California Institute of Technology (2024-2026)
+California Institute of Technology (2024)
 
 **Presidential Postdoctoral Fellow**  
-California Institute of Technology (2022-2024)
+California Institute of Technology (2022)
 
 ## Education
 
