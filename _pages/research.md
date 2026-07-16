@@ -19,6 +19,7 @@ Meeting these challenges requires platform innovation. Our laboratory builds nex
 
 Our platform and biotechnology efforts inform one another. New capabilities of cell-free platforms make previously inaccessible applications possible, while application-driven challenges reveal the limitations of existing platforms and motivate the development of better ones. Through this feedback-and-feedforward process, we seek to expand the range of biological systems that can be designed, built, and deployed.
 
+![Platform innovation and biotechnology application feedback loop](/images/ResearchMain.png)
 ---
 
 ## Platform Innovation
