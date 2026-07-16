@@ -10,4 +10,4 @@ redirect_from:
 
 The Zhang Lab at [Rice ChBE](https://chbe.rice.edu) uses cell-free synthetic biology to expand our ability to engineer biological systems beyond the constraints set by living cells. Our research integrates innovations in cell-free expression platforms with application-driven biotechnology development, where advances in each inform and enable the other. Our initial research program includes developing platforms, diagnostics, and therapeutics for human health applications.
 
-<img src="/images/WelcomePage.png" alt="Cell-free platform innovation and application-driven biodesign feedback loop" style="max-width: 700px; width: 100%; height: auto; display: block; margin: 1.5em auto;">
+<img src="/images/WelcomePage.png" alt="Cell-free platform innovation and application-driven biodesign feedback loop" style="max-width: 600px; width: 100%; height: auto; display: block; margin: 1.5em auto;">
