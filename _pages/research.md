@@ -8,15 +8,16 @@ author_profile: false
 
 ## Cell-Free Gene Expression
 
-Cell-free gene expression systems recreate the transcription and translation machinery of living cells in an open test-tube environment. By removing the constraints on cellular growth and survival, they allow us to rapidly prototype biological systems and study processes that are difficult (and sometimes impossible) to study inside living cells.
+Cell-free gene expression systems recreate the transcription and translation reactions of living cells in an open test-tube environment. By operating outside the constraints on cell growth and survival, these systems allow rapid design and engineering of biological systems that are difficult (and sometimes impossible) to study within living cells.
 
-Over the past decade, E. coli lysate-based systems have emerged as a powerful workhorse for protein expression, biosensor development, metabolic engineering, and enzyme screening. As synthetic biology tackles increasingly ambitious problems, however, the limitations of E. coli-based platforms are becoming more apparent. Crude lysates contain thousands of native enzymes and regulatory molecules that can interfere with engineered systems, while the molecular machinery of E. coli cannot support the growing diversity of biological applications.
+Over the past decade, *E. coli* lysate-based cell-free expression systems have emerged as a powerful platform for protein expression, biosensor development, metabolic engineering, and enzyme screening. Yet as engineers move on to tackle increasingly ambitious problems, the limitations of *E. coli*-based platforms are becoming more apparent. Crude lysates contain thousands of native enzymes and regulatory molecules that can interfere with engineered systems, while the biochemistry and molecular machinery of *E. coli* fall short in supporting the growing diversity of biological designs.
 
-Meeting these challenges requires new cell-free platforms. Our laboratory develops next-generation systems that expand what can be built and studied outside living cells. Our research is organized around two complementary themes: **platform innovation** in cell-free expression systems and **biotechnology innovation**, in which we apply these systems to solve important biological problems.
+Meeting these challenges requires platform innovation. Our laboratory builds next-generation cell-free platforms to expand what can be built with biology, work that sits at the frontier of synthetic biology. Our research is organized around two complementary themes:
 
-Our platform and biotechnology efforts continually inform one another. New cell-free capabilities make previously inaccessible applications possible, while application-driven challenges reveal the limitations of existing platforms and motivate the development of better ones. Through this iterative process, we seek to expand the range of biological systems that can be designed, built, and deployed.
+- **Platform innovation**, in which we develop cell-free gene expression systems that expand the reach of synthetic biology
+- **Biotechnology application**, in which we apply these engineered systems to solve pressing biological problems
 
-<img src="{{ site.baseurl }}/images/CoverFigure.png" alt="Overview of the Zhang Lab cell-free systems research program" class="research-overview-image"/>
+Our platform and biotechnology efforts inform one another. New capabilities of cell-free platforms make previously inaccessible applications possible, while application-driven challenges reveal the limitations of existing platforms and motivate the development of better ones. Through this feedback-and-feedforward process, we seek to expand the range of biological systems that can be designed, built, and deployed.
 
 ---
 
@@ -24,7 +25,7 @@ Our platform and biotechnology efforts continually inform one another. New cell-
 
 ---
 
-## Biotechnology Innovation
+## Biotechnology Applications
 
 ---
 
