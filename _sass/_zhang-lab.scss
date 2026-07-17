@@ -246,23 +246,6 @@ $rice-white: #ffffff;
   }
 }
 
-/* Remove masthead step/notch */
-.masthead {
-  background-color: $rice-blue !important;
-  overflow: hidden !important;
-}
-
-.masthead__inner-wrap {
-  background: transparent !important;
-  margin-bottom: 0 !important;
-}
-
-.greedy-nav,
-.greedy-nav .visible-links {
-  background: transparent !important;
-  margin-bottom: 0 !important;
-}
-
 /* =======================================================
    Hyperlink colors
    ======================================================= */
