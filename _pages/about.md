@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to the Zhang Lab"
+title: "Welcome to the Zhang Lab for Cell-Free Synthetic Biology"
 excerpt: " "
 author_profile: false
 redirect_from: 
