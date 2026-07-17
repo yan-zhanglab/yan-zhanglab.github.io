@@ -12,7 +12,7 @@ The Zhang Lab at [Rice ChBE](https://chbe.rice.edu) uses cell-free synthetic bio
 
 <img src="/images/WelcomePage.png" alt="Cell-free platform innovation and application-driven biodesign feedback loop" style="max-width: 600px; width: 100%; height: auto; display: block; margin: 1.5em auto;">
 
-Interested in joining the lab? See our [open positions](/members/).
+Interested in joining the lab? See our [open positions](/members/Lab-Member/).
 
 ### Active Projects
 
