@@ -1,12 +1,10 @@
 ---
 permalink: /research/
-title: " "
+title: "Cell-Free Gene Expression"
 author_profile: false
 ---
 
 {% include base_path %}
-
-## Cell-Free Gene Expression
 
 Cell-free gene expression systems recreate the transcription and translation reactions of living cells in an open test-tube environment. By operating outside the constraints on cell growth and survival, these systems allow rapid design and engineering of biological systems that are difficult (and sometimes impossible) to study within living cells.
 
