@@ -18,11 +18,20 @@ $rice-white: #ffffff;
   border-bottom: none !important;
 }
 
+/* Prevent the visual "step" notch on desktop only —
+   scoped so it doesn't clip the mobile dropdown menu */
+@media screen and (min-width: 601px) {
+  .masthead {
+    overflow: hidden !important;
+  }
+}
+
 /* Keep the centered inner elements transparent */
 .masthead__inner-wrap,
 .greedy-nav,
 .greedy-nav .visible-links {
   background: transparent !important;
+  margin-bottom: 0 !important;
 }
 
 /* Mobile dropdown retains the blue background */
@@ -58,7 +67,6 @@ $rice-white: #ffffff;
 .greedy-nav .navicon::after {
   background-color: $rice-white !important;
 }
-
 
 /* =======================================================
    Publication cards
