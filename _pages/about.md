@@ -14,7 +14,7 @@ The Zhang Lab at [Rice ChBE](https://chbe.rice.edu) uses cell-free synthetic bio
 
 Interested in joining the lab? See our [open positions](/members/Lab-Member/).
 
-### Active Projects
+### Active Projects ###
 
 - **Establishing a Cell-Free Synthetic Biology Platform to Detect, Eliminate, and Reprogram Oncogenic Bacteria in Colorectal Cancer** — funded by the Cancer Prevention and Research Institute of Texas (CPRIT) Recruitment of First-Time, Tenure-Track Faculty Members
 - **An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (Phages) to Counter Antibiotic Resistance** — funded by the NIH Pathway to Independence Career Transition Award (K99/R00)
