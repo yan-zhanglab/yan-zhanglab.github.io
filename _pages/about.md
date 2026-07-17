@@ -16,5 +16,5 @@ Interested in joining the lab? See our [open positions](/members/Lab-Member/).
 
 ### Active Projects
 
-- **Establishing a Cell-Free Synthetic Biology Platform to Detect, Eliminate, and Reprogram Oncogenic Bacteria in Colorectal Cancer** — funded by the Cancer Prevention and Research Institute of Texas (CPRIT) First-Time Tenure-Track Faculty Recruitment Award
-- **An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (Phages) to Counter Antibiotic Resistance** — funded by the NIH MOSAIC K99/R00 Pathway to Independence Career Transition Award
+- **Establishing a Cell-Free Synthetic Biology Platform to Detect, Eliminate, and Reprogram Oncogenic Bacteria in Colorectal Cancer** — funded by the Cancer Prevention and Research Institute of Texas (CPRIT) Recruitment of First-Time, Tenure-Track Faculty Members
+- **An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (Phages) to Counter Antibiotic Resistance** — funded by the NIH Pathway to Independence Career Transition Award (K99/R00)
