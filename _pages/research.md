@@ -10,7 +10,7 @@ author_profile: false
 
 Cell-free gene expression systems recreate the transcription and translation reactions of living cells in an open test-tube environment. By operating outside the constraints on cell growth and survival, these systems allow rapid design and engineering of biological systems that are difficult (and sometimes impossible) to study within living cells.
 
-Over the past decade, *E. coli* lysate-based cell-free expression systems have emerged as a powerful platform for protein expression, biosensor development, metabolic engineering, and enzyme screening. Yet as we move on to tackle increasingly ambitious problems, the limitations of *E. coli*-based platforms are becoming more apparent. Crude lysates contain thousands of native enzymes and regulatory molecules that can interfere with engineered systems, and the biochemistry and molecular machinery of *E. coli* fall short in supporting the growing diversity of biological designs.
+Over the past decade, *E. coli* lysate-based cell-free expression systems have emerged as a powerful platform for protein expression, biosensor development, metabolic engineering, and high-throughput screening. Yet as we move on to tackle increasingly ambitious problems, the limitations of *E. coli*-based platforms are becoming more apparent. Crude lysates contain thousands of native enzymes and regulatory molecules that can interfere with engineered systems, and the biochemistry and molecular machinery of *E. coli* fall short in supporting the growing diversity of biological designs.
 
 Meeting these challenges requires platform innovation. Our laboratory builds next-generation cell-free platforms to expand what we can build with biology. Our research is organized around two complementary themes:
 
