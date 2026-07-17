@@ -16,6 +16,7 @@ The Zhang Lab at [Rice Chemical and Biomolecular Engineering](https://chbe.rice.
 
 **Establishing a Cell-Free Synthetic Biology Platform to Detect, Eliminate, and Reprogram Oncogenic Bacteria in Colorectal Cancer**  
 Cancer Prevention and Research Institute of Texas (CPRIT), Recruitment of First-Time, Tenure-Track Faculty Members
+
 **An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (Phages) to Counter Antibiotic Resistance**  
 NIH MOSAIC Pathway to Independence Career Transition Award (K99/R00)
 
