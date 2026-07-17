@@ -32,8 +32,10 @@ Most cell-free expression platforms are built from lysates of a single host, typ
 Reconstituted cell-free expression systems are built from purified components rather than crude cell extract, trading yield and cost for better control over reaction composition. Our lab develops custom reconstituted gene expression platforms for biosensor diagnostics that would not otherwise work in the crude cell lysate environment. By stripping away the murky background chemistry in reconstituted systems, we create a clean reaction environment in which sensors respond only to their intended signal. While this initially focuses on biosensor development, our broader goal is a future *design-build-work* workflow in which we understand every element's purpose and activity, so we control reaction rate and yield from the outset rather than discovering them through trial and error. 
 
 **Relevant Work**
-[Optimizing protein production in the One-Pot Pure system: insights into reaction composition and expression efficiency](/publication/2025-04-10-Optimizing-One-Pot-PURE)
-[Metabolic Dynamics in Escherichia coli-Based Cell-Free Systems](/publication/2021-09-01-Metabolic-Dynamics-in-Escherichia-coli-Based-Cell-Free-Systems)
+[Optimizing protein production in the One-Pot Pure system: insights into reaction composition and expression efficiency](/publication/2025-04-10-Optimizing-One-Pot-PURE)  
+
+[Metabolic Dynamics in Escherichia coli-Based Cell-Free Systems](/publication/2021-09-01-Metabolic-Dynamics-in-Escherichia-coli-Based-Cell-Free-Systems)  
+
 
 ---
 
