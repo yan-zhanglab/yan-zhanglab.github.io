@@ -33,9 +33,71 @@ Reconstituted cell-free expression systems are built from purified components ra
 
 **Relevant Work**  
 
-[Optimizing protein production in the One-Pot Pure system: insights into reaction composition and expression efficiency](/publication/2025-04-10-Optimizing-One-Pot-PURE)  
+<div class="relevant-work">
+  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2025-04-10-Optimizing-One-Pot-PURE" target="_blank" rel="noopener">
+    <div class="rw-title">Optimizing protein production in the One-Pot PURE system: insights into reaction composition and expression efficiency</div>
+    <div class="rw-meta">ACS Synthetic Biology · 2025</div>
+    <div class="rw-abstract">Characterizes proteome and tRNA composition bottlenecks in the One-Pot PURE system, improving cell-free protein yield and reproducibility across labs.</div>
+  </a>
+  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2021-09-01-Metabolic-Dynamics-in-Escherichia-coli-Based-Cell-Free-Systems" target="_blank" rel="noopener">
+    <div class="rw-title">Metabolic Dynamics in Escherichia coli-Based Cell-Free Systems</div>
+    <div class="rw-meta">ACS Synthetic Biology · 2021</div>
+    <div class="rw-abstract">Uses metabolomics to profile temporal metabolic dynamics in E. coli-based cell-free reactions, revealing robust, lysate-dependent behavior that shapes protein yield.</div>
+  </a>
+</div>
 
-[Metabolic Dynamics in Escherichia coli-Based Cell-Free Systems](/publication/2021-09-01-Metabolic-Dynamics-in-Escherichia-coli-Based-Cell-Free-Systems)  
+<style>
+.relevant-work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.rw-card {
+  display: block;
+  flex: 1 1 260px;
+  max-width: 320px;
+  padding: 1rem 1.1rem;
+  border: 1px solid #d8dee6;
+  border-left: 3px solid #1a2b4c;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+.rw-card:hover {
+  box-shadow: 0 6px 16px rgba(26,43,76,0.15);
+  transform: translateY(-2px);
+  border-left-color: #3d6fb4;
+}
+.rw-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a2b4c;
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+}
+.rw-meta {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+.rw-abstract {
+  font-size: 0.85rem;
+  color: #444;
+  line-height: 1.4;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin-top 0.3s ease;
+}
+.rw-card:hover .rw-abstract {
+  max-height: 200px;
+  opacity: 1;
+  margin-top: 0.25rem;
+}
+</style>
 
 
 ---
