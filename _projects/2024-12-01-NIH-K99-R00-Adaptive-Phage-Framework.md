@@ -3,7 +3,6 @@ title: "An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (P
 collection: projects
 permalink: /projects/nih-k99-r00-adaptive-phage-framework
 excerpt: "NIH K99/R00-funded framework for synthesizing and reconfiguring bacteriophages to counter antibiotic-resistant bacterial infections."
-date: ""
 funder: "NIH MOSAIC Pathway to Independence Career Transition Award (K99/R00)"
 ---
 
