@@ -4,6 +4,7 @@ collection: projects
 permalink: /projects/cprit-oncogenic-bacteria-colorectal-cancer
 excerpt: "Cell-free synthetic biology platform for detecting, eliminating, and reprogramming oncogenic bacteria implicated in colorectal cancer."
 funder: "Cancer Prevention and Research Institute of Texas (CPRIT), Recruitment of First-Time, Tenure-Track Faculty Members"
+hide_date: true
 ---
 
 ## Overview
