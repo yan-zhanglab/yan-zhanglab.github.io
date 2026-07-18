@@ -14,11 +14,49 @@ The Zhang Lab at [Rice Chemical and Biomolecular Engineering](https://chbe.rice.
 
 ## Active Projects
 
-**Establishing a Cell-Free Synthetic Biology Platform to Detect, Eliminate, and Reprogram Oncogenic Bacteria in Colorectal Cancer**  
-Cancer Prevention and Research Institute of Texas (CPRIT), Recruitment of First-Time, Tenure-Track Faculty Members
+<style>
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+.project-card {
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #d8dee6;
+  border-left: 3px solid #1a2b4c;
+  border-radius: 6px;
+  background: #fff;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(26,43,76,0.12);
+  border-left-color: #3d6fb4;
+}
+.project-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a2b4c;
+  margin-bottom: 0.25rem;
+  line-height: 1.3;
+}
+.project-funder {
+  font-size: 0.85rem;
+  color: #6b7280;
+  line-height: 1.4;
+}
+</style>
 
-**An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (Phages) to Counter Antibiotic Resistance**  
-NIH MOSAIC Pathway to Independence Career Transition Award (K99/R00)
+<div class="project-list">
+  <div class="project-card">
+    <div class="project-title">Establishing a Cell-Free Synthetic Biology Platform to Detect, Eliminate, and Reprogram Oncogenic Bacteria in Colorectal Cancer</div>
+    <div class="project-funder">Cancer Prevention and Research Institute of Texas (CPRIT), Recruitment of First-Time, Tenure-Track Faculty Members</div>
+  </div>
+  <div class="project-card">
+    <div class="project-title">An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (Phages) to Counter Antibiotic Resistance</div>
+    <div class="project-funder">NIH MOSAIC Pathway to Independence Career Transition Award (K99/R00)</div>
+  </div>
+</div>
 
 ## Join Us
 
