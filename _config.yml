@@ -197,6 +197,11 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
   
 
 
@@ -264,6 +269,15 @@ defaults:
       author_profile: true
       share: false
       comments: false
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comment: false
 
 
 # Sass/SCSS
