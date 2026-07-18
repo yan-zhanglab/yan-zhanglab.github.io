@@ -13,17 +13,17 @@ Recent studies show that certain bacteria within the tumor microbiome contribute
 
 
 ## Current Participants:
-[Yan Zhang](/members/Yan-Zhang) (PI)  
-[Christopher Fan](https://www.houstonmethodist.org/doctor/christopher-fan/) (Collaborator, Houston Methodist)  
-[Michael King](https://cancertrailblazers.org) (Collaborator, Rice BioE)  
+- [Yan Zhang](/members/Yan-Zhang) (PI)  
+- [Christopher Fan](https://www.houstonmethodist.org/doctor/christopher-fan/) (Collaborator, Houston Methodist)  
+- [Michael King](https://cancertrailblazers.org) (Collaborator, Rice BioE)  
 
 ## Funding
 
 Supported by the Cancer Prevention and Research Institute of Texas (CPRIT), Recruitment of First-Time, Tenure-Track Faculty Members
 
-- **Agency:** CPRIT
-- **Grant #:** RR260076
-- **Primary Site:** Rice University
-- **Start date:** pending
-- **End date:** pending + 5 years
-- **Reporting:** Annual
+**Agency:** CPRIT  
+**Grant #:** RR260076  
+**Primary Site:** Rice University  
+**Start date:** pending  
+**End date:** pending + 5 years  
+**Reporting:** Annual  
