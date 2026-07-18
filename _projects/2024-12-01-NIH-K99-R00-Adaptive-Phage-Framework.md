@@ -3,7 +3,7 @@ title: "An Adaptive Framework to Synthesize and Reconfigure Bacterial Viruses (P
 collection: projects
 permalink: /projects/nih-k99-r00-adaptive-phage-framework
 excerpt: "NIH K99/R00-funded framework for synthesizing and reconfiguring bacteriophages to counter antibiotic-resistant bacterial infections."
-date: 2024-12-01
+date: ""
 funder: "NIH MOSAIC Pathway to Independence Career Transition Award (K99/R00)"
 ---
 
@@ -13,11 +13,11 @@ The growing antibiotic resistance crisis has revived interest in phage therapy (
 
 
 ## Current Participants:
-[Yan Zhang](/members/Yan-Zhang) (PI)
-[William Clemons](https://clemonslab.caltech.edu/) (Primary Mentor)
-[Richard Murray](https://murray.cds.caltech.edu/) (Advisory Committee)
-[Kaihang Wang](https://wanglab.caltech.edu/) (Advisory Committee)
-[Dianne Newman](https://dknweb.caltech.edu/) (Advisory Committee)
+[Yan Zhang](/members/Yan-Zhang) (PI)  
+[William Clemons](https://clemonslab.caltech.edu/) (Primary Mentor)  
+[Richard Murray](https://murray.cds.caltech.edu/) (Advisory Committee)  
+[Kaihang Wang](https://wanglab.caltech.edu/) (Advisory Committee)  
+[Dianne Newman](https://dknweb.caltech.edu/) (Advisory Committee)  
 
 ## Objectives
 
