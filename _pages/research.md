@@ -108,5 +108,30 @@ Reconstituted cell-free expression systems are built from purified components ra
 
 ## Biotechnology Applications
 
+**Biosensor Diagnostics**
+
+Cell-free systems are especially well-suited to biosensor diagnostics. By simply swapping the genetic program that expresses the sensor and reporter output, the same reaction can be tuned to detect analytes ranging from ions and small molecules to nucleic acids and proteins. To reach point-of-need settings, these cell-free reactions can be freeze-dried for ambient-temperature storage and shipment and activated on demand by simply adding the sampling fluid. Our goal is to build diagnostic platforms that are fast, low-cost, and field-deployable, while meeting the sensitivity and specificity needed for real-world clinical and environmental samples.
+
+**Phage Therapeutics**
+As cases of antibiotic resistance grow, using bacteriophages (the natural predators of bacteria) as antimicrobial agents to treat multidrug-resistant infections is gaining renewed attention. Rather than relying on the traditional phage cultivation method, which requires propagating the susceptible host, the cell-free expression platform enables on-demand acceleration of phage production and engineering. We are applying our cell-free platform development to support diverse phage rebooting, in which we assemble and recover infectious phages directly from their genome sequence, without a host, and engineer them against pressing ESKAPE pathogens.
+
+**Relevant Works**  
+<div class="relevant-work">
+  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2021-09-01-Protocell-arrays-for-simultaneous-detection-of-diverse-analytes" target="_blank" rel="noopener">
+    <div class="rw-title">Protocell arrays for simultaneous detection of diverse analytes</div>
+    <div class="rw-meta">Nature Communications · 2021</div>
+    <div class="rw-abstract">Integrates cell-free expression into membrane-less protocells arrayed together, enabling simultaneous detection of chemically diverse targets from a single sample.</div>
+  </a>
+  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2021-11-01-Point-of-Care-Analyte-Quantification-and-Digital-Readout-via-Lysate-Based-Cell-Free-Biosensors-Interfaced-with-Personal-Glucose-Monitors" target="_blank" rel="noopener">
+    <div class="rw-title">Point-of-Care Analyte Quantification and Digital Readout via Lysate-Based Cell-Free Biosensors Interfaced with Personal Glucose Monitors</div>
+    <div class="rw-meta">ACS Synthetic Biology · 2021</div>
+    <div class="rw-abstract">Couples E. coli lysate-based biosensors to personal glucose monitors, enabling reconfigurable, quantitative analyte detection at the point of care.</div>
+  </a>
+  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2019-09-01-Point-of-care-biomarker-quantification-enabled-by-sample-specific-calibration" target="_blank" rel="noopener">
+    <div class="rw-title">Point-of-care biomarker quantification enabled by sample-specific calibration</div>
+    <div class="rw-meta">Science Advances · 2019</div>
+    <div class="rw-abstract">Uses each patient sample to generate its own calibration curve, enabling quantitative, naked-eye colorimetric readouts robust to complex sample interference.</div>
+  </a>
+</div>
 ---
 
