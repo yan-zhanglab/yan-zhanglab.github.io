@@ -87,9 +87,9 @@ Most cell-free expression platforms are built from lysates of a single host, typ
 
 **Reconstituted Systems**
 
-Reconstituted cell-free expression systems are built from purified components rather than crude cell extract, trading yield and cost for better control over reaction composition. Our lab develops custom reconstituted gene expression platforms for biosensor diagnostics that would not otherwise work in the crude cell lysate environment. By stripping away the murky background chemistry in reconstituted systems, we create a clean reaction environment in which sensors respond only to their intended signal. While this initially focuses on biosensor development, our broader goal is a future *design-build-work* workflow in which we understand every element's purpose and activity, so we control reaction rate and yield from the outset rather than discovering them through trial and error. 
+Reconstituted cell-free expression systems are built from purified components rather than crude cell extract, trading yield and cost for better control over reaction composition. Our lab develops custom reconstituted gene expression platforms for biosensor diagnostics that would not otherwise work in the crude cell lysate environment. By stripping away the murky background chemistry in reconstituted systems, we create a clean reaction environment in which sensors respond only to their intended signal. While this initially focuses on biosensor development, our broader goal is a future *design-build-work* workflow in which we understand every element's purpose and activity, so we control reaction rate and yield from the outset rather than discovering them through trial and error.
 
-**Relevant Works**  
+**Relevant Works**
 
 <div class="relevant-work">
   <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2025-04-10-Optimizing-One-Pot-PURE" target="_blank" rel="noopener">
@@ -113,9 +113,11 @@ Reconstituted cell-free expression systems are built from purified components ra
 Cell-free systems are especially well-suited to biosensor diagnostics. By simply swapping the genetic program that expresses the sensor and reporter output, the same reaction can be tuned to detect analytes ranging from ions and small molecules to nucleic acids and proteins. To reach point-of-need settings, these cell-free reactions can be freeze-dried for ambient-temperature storage and shipment and activated on demand by simply adding the sampling fluid. Our goal is to build diagnostic platforms that are fast, low-cost, and field-deployable, while meeting the sensitivity and specificity needed for real-world clinical and environmental samples.
 
 **Phage Therapeutics**
+
 As cases of antibiotic resistance grow, using bacteriophages (the natural predators of bacteria) as antimicrobial agents to treat multidrug-resistant infections is gaining renewed attention. Rather than relying on the traditional phage cultivation method, which requires propagating the susceptible host, the cell-free expression platform enables on-demand acceleration of phage production and engineering. We are applying our cell-free platform development to support diverse phage rebooting, in which we assemble and recover infectious phages directly from their genome sequence, without a host, and engineer them against pressing ESKAPE pathogens.
 
-**Relevant Works**  
+**Relevant Works**
+
 <div class="relevant-work">
   <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2021-09-01-Protocell-arrays-for-simultaneous-detection-of-diverse-analytes" target="_blank" rel="noopener">
     <div class="rw-title">Protocell arrays for simultaneous detection of diverse analytes</div>
@@ -133,5 +135,5 @@ As cases of antibiotic resistance grow, using bacteriophages (the natural predat
     <div class="rw-abstract">Uses each patient sample to generate its own calibration curve, enabling quantitative, naked-eye colorimetric readouts robust to complex sample interference.</div>
   </a>
 </div>
----
 
+---
