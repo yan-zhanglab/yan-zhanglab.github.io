@@ -39,5 +39,5 @@ Molecular diagnostics
 Precision therapeutics  
 
 ## Contact
-Email: yz473[at]rice[dot]edu  
+Email: yz350[at]rice[dot]edu  
 [Curriculum Vitae](/files/Yan_Zhang_CV.pdf)  

@@ -31,7 +31,7 @@ We welcome inquiries from:
 - Ph.D. students (We welcome exceptional students from any relevant program at Rice. After you are admitted or are coming to campus for an interview, please get in touch.)
 - Undergraduate researchers
 
-If you are interested in joining the Zhang Lab, please email me at yz473[at]rice[dot]edu with:
+If you are interested in joining the Zhang Lab, please email me at yz350[at]rice[dot]edu with:
 
 - Your CV
 - A brief description of your research interests and career plan
