@@ -240,11 +240,9 @@ The Zhang Lab develops cell-free synthetic biology platforms that draw from the 
   </div>
 </div>
 
-Our current tool-building efforts target human health. But the tools are not specific to it. If you see an application we have not thought of, we want to hear about it.
+Our current tool-building efforts target human health, but the tools aren't limited to it. If you see an application we have not thought of, we want to hear about it.
 
 <img src="/images/WelcomePage.png" alt="Cell-free platform innovation and application-driven biodesign feedback loop" style="max-width: 600px; width: 100%; height: auto; display: block; margin: 2em auto 0;">
-
-<p class="figure-caption">Platform innovation and application drive one another: new cell-free capabilities open previously inaccessible applications, and application-driven challenges expose the limits of existing platforms.</p>
 
 ## Questions We Are Working On
 
