@@ -48,6 +48,23 @@ redirect_from:
   background: #f4f8fd;
   border-color: #bcd0ea;
 }
+.arc-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  height: 72px;
+  margin-bottom: 0.55rem;
+}
+.arc-icon {
+  max-height: 64px;
+  max-width: 104px;
+  width: auto;
+  flex: 0 0 auto;
+}
+.arc-icon--ship {
+  max-height: 48px;
+}
 .arc-num {
   display: inline-flex;
   align-items: center;
@@ -222,27 +239,34 @@ The Zhang Lab develops cell-free synthetic biology platforms that draw from the 
 
 <div class="arc">
   <div class="arc-step">
-    <div class="arc-num">1</div>
+    <div class="arc-head">
+      <div class="arc-num">1</div>
+      <img class="arc-icon" src="/images/step-learn.png" alt="A microbe broken open, revealing the machinery inside">
+    </div>
     <div class="arc-label">Learn the Machines</div>
     <div class="arc-sub">Draw on machinery from across biology</div>
   </div>
   <div class="arc-arrow">&rarr;</div>
   <div class="arc-step">
-    <div class="arc-num">2</div>
+    <div class="arc-head">
+      <div class="arc-num">2</div>
+      <img class="arc-icon" src="/images/step-build.png" alt="A reaction tube with transcription and translation machinery">
+    </div>
     <div class="arc-label">Build the Cell-Free Platform</div>
     <div class="arc-sub">Assemble and characterize outside the cell</div>
   </div>
   <div class="arc-arrow">&rarr;</div>
   <div class="arc-step arc-step--final">
-    <div class="arc-num">3</div>
+    <div class="arc-head">
+      <div class="arc-num">3</div>
+      <img class="arc-icon arc-icon--ship" src="/images/step-ship.png" alt="A paper plane shipping biological designs into living cells">
+    </div>
     <div class="arc-label">Ship the Program</div>
     <div class="arc-sub">Put it back into living cells</div>
   </div>
 </div>
 
 Our current tool-building efforts target human health, but the tools aren't limited to it. If you see an application we have not thought of, we want to hear about it.
-
-<img src="/images/WelcomePage.png" alt="Cell-free platform innovation and application-driven biodesign feedback loop" style="max-width: 600px; width: 100%; height: auto; display: block; margin: 2em auto 0;">
 
 ## Questions We Are Working On
 
