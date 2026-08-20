@@ -262,7 +262,7 @@ The Zhang Lab develops cell-free synthetic biology platforms that draw from the 
       <img class="arc-icon arc-icon--ship" src="/images/step-ship.png" alt="A paper plane shipping biological designs into living cells">
     </div>
     <div class="arc-label">Ship the Program</div>
-    <div class="arc-sub">Put it back into living cells</div>
+    <div class="arc-sub">Send it into the wild</div>
   </div>
 </div>
 

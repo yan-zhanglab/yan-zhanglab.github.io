@@ -107,7 +107,6 @@ For decades, the *E. coli* lysate-based cell-free system has been the workhorse 
 
 We are now facing this ceiling. Our ability to design and build with biology is advancing faster than ever, but the platform can no longer support our endeavors. So we build better platforms.
 
----
 
 <div class="sec">
   <img class="sec-icon" src="{{ base_path }}/images/step-microbe.png" alt="A rod-shaped microbe with a phage attached">
@@ -141,7 +140,6 @@ We develop custom reconstituted platforms for sensing tasks that will not work i
   </a>
 </div>
 
----
 
 <div class="sec">
   <img class="sec-icon" src="{{ base_path }}/images/step-apply.png" alt="A gear, representing biotechnology built on the platform">
@@ -182,15 +180,16 @@ Cell-free reactions are unusually well suited to diagnostics: one reaction can b
   </a>
 </div>
 
----
 
 <div class="sec">
   <img class="sec-icon" src="{{ base_path }}/images/step-ship.png" alt="A paper plane shipping biological designs into living cells">
-  <h2>Back Into Living Cells</h2>
+  <h2>Shipping the Program</h2>
 </div>
 
-Building outside the cell is a means, not the end. A phage rebooted in a tube has to go on to infect a live pathogen. A program written for a bacterium has to run inside that bacterium in the wild. The cell-free platform is where we can see and control every variable; a living cell is where the design has to hold true.
+Building outside the cell is a means, not the end. The tube is where we can see and control every variable. Shipping is where we give that control up.
 
-That "shipping" trip is the hardest test we can give our own work, and it is where our funded projects point: engineering rebooted phage against live ESKAPE pathogens, and detecting, eliminating, and reprogramming the oncogenic bacteria implicated in colorectal cancer.
+A phage rebooted in a tube has to go on to infect a live pathogen. A sensor built in a clean reconstituted reaction has to return a true answer in serum, in an environmental sample, in whatever someone actually hands us. Both are the same test in different form: the program has to hold true somewhere we do not govern.
+
+That trip is the hardest test we can give our own work, and it is where our funded projects point: engineering rebooted phage against live ESKAPE pathogens, and detecting, eliminating, and reprogramming the oncogenic bacteria implicated in colorectal cancer.
 
 <p style="font-size: 0.95rem;">More detail on the <a href="{{ base_path }}/projects/nih-k99-r00-adaptive-phage-framework">adaptive phage framework</a> and the <a href="{{ base_path }}/projects/cprit-oncogenic-bacteria-colorectal-cancer">oncogenic bacteria project</a>.</p>
