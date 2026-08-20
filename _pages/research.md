@@ -188,7 +188,7 @@ Cell-free reactions are unusually well suited to diagnostics: one reaction can b
 
 Building outside the cell is a means, not the end. The tube is where we can see and control every variable. Shipping is where we give that control up.
 
-A phage rebooted in a tube has to go on to infect a live pathogen. A sensor built in a clean reconstituted reaction has to return a true answer in serum, in an environmental sample, in whatever someone actually hands us. Both are the same test in different form: the program has to hold true somewhere we do not govern.
+A phage rebooted in a tube has to go on to infect a live pathogen. A sensor built in a clean reconstituted reaction has to return a true answer in serum, in an environmental sample, in whatever someone actually hands us. Both are the same test in different form: the program has to hold true in the wild.
 
 That trip is the hardest test we can give our own work, and it is where our funded projects point: engineering rebooted phage against live ESKAPE pathogens, and detecting, eliminating, and reprogramming the oncogenic bacteria implicated in colorectal cancer.
 
