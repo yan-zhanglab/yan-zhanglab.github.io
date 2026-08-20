@@ -67,6 +67,36 @@ author_profile: false
   color: #1a2b4c;
   margin: 1.8rem 0 0.4rem;
 }
+.sec {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 2.6rem 0 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid #e5e9ef;
+}
+.sec-icon {
+  max-height: 54px;
+  max-width: 72px;
+  width: auto;
+  flex: 0 0 auto;
+}
+.sec h2 {
+  margin: 0 !important;
+  font-size: 1.35rem;
+  color: #1a2b4c;
+  line-height: 1.25;
+}
+.claim {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #1a2b4c;
+  line-height: 1.4;
+  margin: 1.6rem 0 0.5rem;
+}
+.claim + p {
+  margin-top: 0;
+}
 </style>
 
 <p class="lede">We are a platform innovations lab. We expand the platforms at hand to build with biology and, in the process, expand what they can do to unlock new biotechnology.</p>
@@ -79,15 +109,22 @@ We are now facing this ceiling. Our ability to design and build with biology is 
 
 ---
 
-## Expanding the Platforms We Work On
+<div class="sec">
+  <img class="sec-icon" src="{{ base_path }}/images/step-microbe.png" alt="A rod-shaped microbe with a phage attached">
+  <h2>Expanding the Platforms We Work On</h2>
+</div>
 
 <div class="theme">Host-derived Systems</div>
 
-Most cell-free platforms are built from the lysate of a single host, and the composition of that lysate is a black box. We characterize the proteome, RNA pool, and metabolome in detail to understand how the reaction chemistry actually comes together to support gene expression. This has already pinpointed concrete, fixable bottlenecks, from a missing cofactor to mismatched tRNA usage and availability. Diagnosing a bottleneck lets us engineer the host and the reaction conditions against it, arriving at reaction environments that are simpler to assemble and more reliably productive.
+<p class="claim">Most cell-free platforms are built from the lysate of a single host, and the composition of that lysate is a black box.</p>
+
+We characterize the proteome, RNA pool, and metabolome in detail to understand how the reaction chemistry actually comes together to support gene expression. This has already pinpointed concrete, fixable bottlenecks, from a missing cofactor to mismatched tRNA usage and availability. Diagnosing a bottleneck lets us engineer the host and the reaction conditions against it, arriving at reaction environments that are simpler to assemble and more reliably productive.
 
 <div class="theme">Reconstituted Systems</div>
 
-Reconstituted systems are built from purified components rather than crude extract, trading yield and cost for control over composition. We develop custom reconstituted platforms for sensing tasks that will not work in a crude lysate background at all. Stripping away the murky background chemistry creates a clean reaction environment in which a sensor responds only to its intended signal. The longer goal is a design-build-test workflow where every element's purpose and activity is known, so reaction rate and yield are set deliberately rather than discovered by trial and error.
+<p class="claim">Reconstituted systems are built from purified components rather than crude extract, trading yield and cost for control over composition.</p>
+
+We develop custom reconstituted platforms for sensing tasks that will not work in a crude lysate background at all. Stripping away the murky background chemistry creates a clean reaction environment in which a sensor responds only to its intended signal. The longer goal is a design-build-test workflow where every element's purpose and activity is known, so reaction rate and yield are set deliberately rather than discovered by trial and error.
 
 **Relevant Works**
 
@@ -106,17 +143,24 @@ Reconstituted systems are built from purified components rather than crude extra
 
 ---
 
-## What New Platforms Open Up
+<div class="sec">
+  <img class="sec-icon" src="{{ base_path }}/images/step-apply.png" alt="A gear, representing biotechnology built on the platform">
+  <h2>What New Platforms Open Up</h2>
+</div>
 
 A platform is only as interesting as what it lets someone build. Each capability we add opens applications that were previously out of reach, and each application we chase exposes the next platform limitation. Two directions currently drive the work.
 
 <div class="theme">Phage Therapeutics</div>
 
-As antibiotic resistance spreads, bacteriophages, the natural predators of bacteria, are drawing renewed attention as antimicrobials against multidrug-resistant infections. Traditional phage work requires propagating a susceptible host. A cell-free platform does not: we reboot phage directly from genome sequence, assembling and recovering infectious particles without a host, which makes production and engineering far faster. We are building this capability out across diverse phage and engineering them against ESKAPE pathogens.
+<p class="claim">Traditional phage work requires propagating a susceptible host. A cell-free platform does not.</p>
+
+As antibiotic resistance spreads, bacteriophages, the natural predators of bacteria, are drawing renewed attention as antimicrobials against multidrug-resistant infections. We reboot phage directly from genome sequence, assembling and recovering infectious particles without a host, which makes production and engineering far faster. We are building this capability out across diverse phage and engineering them against ESKAPE pathogens.
 
 <div class="theme">Biosensor Diagnostics</div>
 
-Cell-free reactions are unusually well suited to diagnostics. Swap the genetic program that expresses the sensor and reporter, and the same reaction detects a different target, from ions and small molecules to nucleic acids and proteins. For point-of-need use, these reactions can be freeze-dried for ambient-temperature storage and shipping, then activated by adding the sample itself. We build toward diagnostics that are fast, low-cost, and field-deployable while still meeting the sensitivity and specificity that real clinical and environmental samples demand.
+<p class="claim">Swap the genetic program, and the same reaction detects a different target.</p>
+
+Cell-free reactions are unusually well suited to diagnostics: one reaction can be retargeted from ions and small molecules to nucleic acids and proteins just by changing the sensor and reporter it expresses. For point-of-need use, these reactions can be freeze-dried for ambient-temperature storage and shipping, then activated by adding the sample itself. We build toward diagnostics that are fast, low-cost, and field-deployable while still meeting the sensitivity and specificity that real clinical and environmental samples demand.
 
 **Relevant Works**
 
@@ -140,7 +184,10 @@ Cell-free reactions are unusually well suited to diagnostics. Swap the genetic p
 
 ---
 
-## Back Into Living Cells
+<div class="sec">
+  <img class="sec-icon" src="{{ base_path }}/images/step-ship.png" alt="A paper plane shipping biological designs into living cells">
+  <h2>Back Into Living Cells</h2>
+</div>
 
 Building outside the cell is a means, not the end. A phage rebooted in a tube has to go on to infect a live pathogen. A program written for a bacterium has to run inside that bacterium in the wild. The cell-free platform is where we can see and control every variable; a living cell is where the design has to hold true.
 
