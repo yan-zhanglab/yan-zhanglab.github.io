@@ -28,7 +28,7 @@ My goal is to help every trainee develop into an independent scientist capable o
 We welcome inquiries from:
 
 - Postdoctoral scholars 
-- Ph.D. students (We welcome exceptional students from any relevant program at Rice. After you are admitted or are coming to campus for an interview, please get in touch.)
+- Graduate students, Ph.D. and master's (We welcome exceptional students from any relevant program at Rice. After you are admitted or are coming to campus for an interview, please get in touch.)
 - Undergraduate researchers
 
 If you are interested in joining the Zhang Lab, please email me at yz350[at]rice[dot]edu with:

@@ -1,12 +1,19 @@
 ---
 permalink: /research/
-title: "Cell-Free Gene Expression"
+title: "Platform Innovation"
 author_profile: false
 ---
 
 {% include base_path %}
 
 <style>
+.lede {
+  font-size: 1.35rem;
+  line-height: 1.4;
+  color: #1a2b4c;
+  font-weight: 500;
+  margin: 0 0 1.1rem;
+}
 .relevant-work {
   display: flex;
   flex-wrap: wrap;
@@ -31,7 +38,8 @@ author_profile: false
   background: #fff;
   transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
-.rw-card:hover {
+.rw-card:hover,
+.rw-card:focus-visible {
   box-shadow: 0 6px 16px rgba(26,43,76,0.15);
   transform: translateY(-2px);
   border-left-color: #3d6fb4;
@@ -51,85 +59,79 @@ author_profile: false
 .rw-abstract {
   font-size: 0.85rem;
   color: #444;
-  line-height: 1.4;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease, opacity 0.3s ease, margin-top 0.3s ease;
+  line-height: 1.45;
 }
-.rw-card:hover .rw-abstract {
-  max-height: 200px;
-  opacity: 1;
-  margin-top: 0.25rem;
+.theme {
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: #1a2b4c;
+  margin: 1.8rem 0 0.4rem;
 }
 </style>
 
-Cell-free gene expression systems recreate the transcription and translation reactions of living cells in an open test-tube environment. By operating outside the constraints on cell growth and survival, these systems allow rapid design and engineering of biological systems that are difficult (and sometimes impossible) to study within living cells.
+<p class="lede">We are a platform innovations lab. We expand the platforms at hand to build with biology and, in the process, expand what they can do to unlock new biotechnology.</p>
 
-Over the past decade, *E. coli* lysate-based cell-free expression systems have emerged as a powerful platform for protein expression, biosensor development, metabolic engineering, and high-throughput screening. Yet as we move on to tackle increasingly ambitious problems, the limitations of *E. coli*-based platforms are becoming more apparent. Crude lysates contain thousands of native enzymes and regulatory molecules that can interfere with engineered systems, and the native biochemistry and machinery of *E. coli* fall short in supporting the growing diversity of biological designs.
+Cell-free gene expression systems recreate the same gene transcription and translation in an open test tube reaction. By removing constraints such as cell growth and survival in a living cell, cell-free systems let us design and engineer biological systems that are difficult, and sometimes impossible, to work on.
 
-Meeting these challenges requires platform innovation. Our laboratory builds next-generation cell-free platforms to expand what we can build with biology. Our research is organized around two complementary themes:
+For decades, the *E. coli* lysate-based cell-free system has been the workhorse powering biotechnology innovations, but it also set an inconvenient ceiling. Crude lysate carries thousands of native enzymes and regulatory molecules that interfere with engineered systems, and *E. coli*'s own biochemistry cannot support the growing diversity of designs people want to build. Sooner or later, the limit isn't what biology can do, it's what the platform can support.
 
-- **Platform innovation**, in which we develop cell-free gene expression systems that expand the reach of synthetic biology
-- **Biotechnology application**, in which we apply these engineered systems to solve pressing biological problems
-
-Our platform and biotechnology efforts inform one another. New capabilities of cell-free platforms make previously inaccessible applications possible, while application-driven challenges reveal the limitations of existing platforms and motivate the development of better ones. Through this integrated process, we seek to expand the range of biological systems that can be designed, built, and deployed.
-
-<img src="/images/ResearchMain.png" alt="Platform innovation and biotechnology application feedback loop" style="max-width: 600px; width: 100%; height: auto; display: block; margin: 1.5em auto;">
+We are now facing this ceiling. Our ability to design and build with biology is advancing faster than ever, but the platform can no longer support our endeavors. So we build better platforms.
 
 ---
 
-## Platform Innovation
+## Expanding the Platforms We Work On
 
-**Host-derived Systems**
+<div class="theme">Host-derived Systems</div>
 
-Most cell-free expression platforms are built from lysates of a single host, typically *E. coli*, but the composition of the lysate itself is a black box. Our lab characterizes the lysate proteome, RNA pool, and metabolome in detail to understand how reaction chemistry comes together to support our gene expression tasks. Work in this area has already pinpointed concrete, fixable bottlenecks: from a missing cofactor to mismatched tRNA usage and availability. Diagnosing these bottlenecks lets us engineer the host and reaction conditions accordingly, arriving at reaction environments that are simpler to assemble and more reliably productive.
+Most cell-free platforms are built from the lysate of a single host, and the composition of that lysate is a black box. We characterize the proteome, RNA pool, and metabolome in detail to understand how the reaction chemistry actually comes together to support gene expression. This has already pinpointed concrete, fixable bottlenecks, from a missing cofactor to mismatched tRNA usage and availability. Diagnosing a bottleneck lets us engineer the host and the reaction conditions against it, arriving at reaction environments that are simpler to assemble and more reliably productive.
 
-**Reconstituted Systems**
+<div class="theme">Reconstituted Systems</div>
 
-Reconstituted cell-free expression systems are built from purified components rather than crude cell extract, trading yield and cost for better control over reaction composition. Our lab develops custom reconstituted gene expression platforms for biosensor diagnostics that would not otherwise work in the crude cell lysate environment. By stripping away the murky background chemistry in reconstituted systems, we create a clean reaction environment in which sensors respond only to their intended signal. While this initially focuses on biosensor development, our broader goal is a future *design-build-work* workflow in which we understand every element's purpose and activity, so we control reaction rate and yield from the outset rather than discovering them through trial and error.
+Reconstituted systems are built from purified components rather than crude extract, trading yield and cost for control over composition. We develop custom reconstituted platforms for sensing tasks that will not work in a crude lysate background at all. Stripping away the murky background chemistry creates a clean reaction environment in which a sensor responds only to its intended signal. The longer goal is a design-build-test workflow where every element's purpose and activity is known, so reaction rate and yield are set deliberately rather than discovered by trial and error.
 
 **Relevant Works**
 
 <div class="relevant-work">
-  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2025-04-10-Optimizing-One-Pot-PURE" target="_blank" rel="noopener">
+  <a class="rw-card" href="{{ base_path }}/publication/2025-04-10-Optimizing-One-Pot-PURE">
     <div class="rw-title">Optimizing protein production in the One-Pot PURE system: insights into reaction composition and expression efficiency</div>
     <div class="rw-meta">ACS Synthetic Biology · 2025</div>
     <div class="rw-abstract">Characterizes proteome and tRNA composition bottlenecks in the One-Pot PURE system, improving cell-free protein yield and reproducibility across labs.</div>
   </a>
-  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2021-09-01-Metabolic-Dynamics-in-Escherichia-coli-Based-Cell-Free-Systems" target="_blank" rel="noopener">
-    <div class="rw-title">Metabolic Dynamics in Escherichia coli-Based Cell-Free Systems</div>
+  <a class="rw-card" href="{{ base_path }}/publication/2021-09-01-Metabolic-Dynamics-in-Escherichia-coli-Based-Cell-Free-Systems">
+    <div class="rw-title">Metabolic Dynamics in <i>Escherichia coli</i>-Based Cell-Free Systems</div>
     <div class="rw-meta">ACS Synthetic Biology · 2021</div>
-    <div class="rw-abstract">Uses metabolomics to profile temporal metabolic dynamics in E. coli-based cell-free reactions, revealing robust, lysate-dependent behavior that shapes protein yield.</div>
+    <div class="rw-abstract">Uses metabolomics to profile temporal metabolic dynamics in <i>E. coli</i>-based cell-free reactions, revealing robust, lysate-dependent behavior that shapes protein yield.</div>
   </a>
 </div>
 
 ---
 
-## Biotechnology Applications
+## What New Platforms Open Up
 
-**Biosensor Diagnostics**
+A platform is only as interesting as what it lets someone build. Each capability we add opens applications that were previously out of reach, and each application we chase exposes the next platform limitation. Two directions currently drive the work.
 
-Cell-free systems are especially well-suited to biosensor diagnostics. By simply swapping the genetic program that expresses the sensor and reporter output, the same reaction can be tuned to detect analytes ranging from ions and small molecules to nucleic acids and proteins. To reach point-of-need settings, these cell-free reactions can be freeze-dried for ambient-temperature storage and shipment and activated on demand by simply adding the sampling fluid. Our goal is to build diagnostic platforms that are fast, low-cost, and field-deployable, while meeting the sensitivity and specificity needed for real-world clinical and environmental samples.
+<div class="theme">Phage Therapeutics</div>
 
-**Phage Therapeutics**
+As antibiotic resistance spreads, bacteriophages, the natural predators of bacteria, are drawing renewed attention as antimicrobials against multidrug-resistant infections. Traditional phage work requires propagating a susceptible host. A cell-free platform does not: we reboot phage directly from genome sequence, assembling and recovering infectious particles without a host, which makes production and engineering far faster. We are building this capability out across diverse phage and engineering them against ESKAPE pathogens.
 
-As cases of antibiotic resistance grow, using bacteriophages (the natural predators of bacteria) as antimicrobial agents to treat multidrug-resistant infections is gaining renewed attention. Rather than relying on the traditional phage cultivation method, which requires propagating the susceptible host, the cell-free expression platform enables on-demand acceleration of phage production and engineering. We are applying our cell-free platform development to support diverse phage rebooting, in which we assemble and recover infectious phages directly from their genome sequence, without a host, and engineer them against pressing ESKAPE pathogens.
+<div class="theme">Biosensor Diagnostics</div>
+
+Cell-free reactions are unusually well suited to diagnostics. Swap the genetic program that expresses the sensor and reporter, and the same reaction detects a different target, from ions and small molecules to nucleic acids and proteins. For point-of-need use, these reactions can be freeze-dried for ambient-temperature storage and shipping, then activated by adding the sample itself. We build toward diagnostics that are fast, low-cost, and field-deployable while still meeting the sensitivity and specificity that real clinical and environmental samples demand.
 
 **Relevant Works**
 
 <div class="relevant-work">
-  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2021-09-01-Protocell-arrays-for-simultaneous-detection-of-diverse-analytes" target="_blank" rel="noopener">
+  <a class="rw-card" href="{{ base_path }}/publication/2021-09-01-Protocell-arrays-for-simultaneous-detection-of-diverse-analytes">
     <div class="rw-title">Protocell arrays for simultaneous detection of diverse analytes</div>
     <div class="rw-meta">Nature Communications · 2021</div>
     <div class="rw-abstract">Integrates cell-free expression into membrane-less protocells arrayed together, enabling simultaneous detection of chemically diverse targets from a single sample.</div>
   </a>
-  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2021-11-01-Point-of-Care-Analyte-Quantification-and-Digital-Readout-via-Lysate-Based-Cell-Free-Biosensors-Interfaced-with-Personal-Glucose-Monitors" target="_blank" rel="noopener">
+  <a class="rw-card" href="{{ base_path }}/publication/2021-11-01-Point-of-Care-Analyte-Quantification-and-Digital-Readout-via-Lysate-Based-Cell-Free-Biosensors-Interfaced-with-Personal-Glucose-Monitors">
     <div class="rw-title">Point-of-Care Analyte Quantification and Digital Readout via Lysate-Based Cell-Free Biosensors Interfaced with Personal Glucose Monitors</div>
     <div class="rw-meta">ACS Synthetic Biology · 2021</div>
-    <div class="rw-abstract">Couples E. coli lysate-based biosensors to personal glucose monitors, enabling reconfigurable, quantitative analyte detection at the point of care.</div>
+    <div class="rw-abstract">Couples <i>E. coli</i> lysate-based biosensors to personal glucose monitors, enabling reconfigurable, quantitative analyte detection at the point of care.</div>
   </a>
-  <a class="rw-card" href="https://yan-zhanglab.github.io/publication/2019-09-01-Point-of-care-biomarker-quantification-enabled-by-sample-specific-calibration" target="_blank" rel="noopener">
+  <a class="rw-card" href="{{ base_path }}/publication/2019-09-01-Point-of-care-biomarker-quantification-enabled-by-sample-specific-calibration">
     <div class="rw-title">Point-of-care biomarker quantification enabled by sample-specific calibration</div>
     <div class="rw-meta">Science Advances · 2019</div>
     <div class="rw-abstract">Uses each patient sample to generate its own calibration curve, enabling quantitative, naked-eye colorimetric readouts robust to complex sample interference.</div>
@@ -137,3 +139,11 @@ As cases of antibiotic resistance grow, using bacteriophages (the natural predat
 </div>
 
 ---
+
+## Back Into Living Cells
+
+Building outside the cell is a means, not the end. A phage rebooted in a tube has to go on to infect a live pathogen. A program written for a bacterium has to run inside that bacterium in the wild. The cell-free platform is where we can see and control every variable; a living cell is where the design has to hold true.
+
+That "shipping" trip is the hardest test we can give our own work, and it is where our funded projects point: engineering rebooted phage against live ESKAPE pathogens, and detecting, eliminating, and reprogramming the oncogenic bacteria implicated in colorectal cancer.
+
+<p style="font-size: 0.95rem;">More detail on the <a href="{{ base_path }}/projects/nih-k99-r00-adaptive-phage-framework">adaptive phage framework</a> and the <a href="{{ base_path }}/projects/cprit-oncogenic-bacteria-colorectal-cancer">oncogenic bacteria project</a>.</p>

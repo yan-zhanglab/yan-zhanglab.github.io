@@ -290,8 +290,8 @@ Our current tool-building efforts target human health, but the tools aren't limi
       <div class="role-note">Inquiries welcome</div>
     </div>
     <div class="role">
-      <div class="role-name">Ph.D. students</div>
-      <div class="role-note">Any relevant Rice program</div>
+      <div class="role-name">Graduate students</div>
+      <div class="role-note">Ph.D. and master's, any relevant Rice program</div>
     </div>
     <div class="role">
       <div class="role-name">Undergraduate researchers</div>
