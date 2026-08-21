@@ -324,15 +324,15 @@ Our current tool-building efforts target human health, but the tools aren't limi
   <h2>Join Us</h2>
   <p>We welcome researchers from across engineering and the natural sciences. What matters most is intellectual curiosity, creativity, and being a good teammate who collaborates openly with the rest of the lab.</p>
   <div class="role-grid">
-    <a class="role" href="/members/Lab-Member/#graduate-students">
+    <a class="role" href="/members/Lab-Member/">
       <div class="role-name">Graduate students</div>
       <div class="role-note">Actively recruiting</div>
     </a>
-    <a class="role" href="/members/Lab-Member/#postdocs">
+    <a class="role" href="/members/Lab-Member/">
       <div class="role-name">Postdoctoral scholars</div>
       <div class="role-note">Inquiries welcome</div>
     </a>
-    <a class="role" href="/members/Lab-Member/#undergraduates">
+    <a class="role" href="/members/Lab-Member/">
       <div class="role-name">Undergraduate researchers</div>
       <div class="role-note">Inquiries welcome</div>
     </a>
