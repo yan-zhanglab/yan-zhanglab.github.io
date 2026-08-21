@@ -149,6 +149,7 @@ redirect_from:
   padding: 0.9rem 1.1rem;
   border: 1px solid #d8dee6;
   border-left: 3px solid #1a2b4c;
+  border-radius: 8px;
   background: #fff;
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
@@ -178,7 +179,7 @@ redirect_from:
 .join {
   border: 1px solid #d8dee6;
   border-top: 3px solid #1a2b4c;
-  border-radius: 6px;
+  border-radius: 8px;
   background: #f7f9fc;
   padding: 1.3rem 1.4rem;
   margin: 1.5rem 0;
@@ -203,7 +204,7 @@ redirect_from:
   min-width: 0;
   background: #fff;
   border: 1px solid #dde3ea;
-  border-radius: 5px;
+  border-radius: 6px;
   padding: 0.7rem 0.85rem;
 }
 .role-name {
