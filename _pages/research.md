@@ -1,6 +1,6 @@
 ---
 permalink: /research/
-title: "Platform Innovation"
+title: "We are a platform innovation lab"
 author_profile: false
 ---
 
@@ -99,7 +99,7 @@ author_profile: false
 }
 </style>
 
-<p class="lede">We are a platform innovations lab. We expand the platforms at hand to build with biology and, in the process, expand what they can do to unlock new biotechnology.</p>
+<p class="lede">We expand the platforms at hand to build with biology and, in the process, expand what they can do to unlock new biotechnology.</p>
 
 Cell-free gene expression systems recreate the same gene transcription and translation in an open test tube reaction. By removing constraints such as cell growth and survival in a living cell, cell-free systems let us design and engineer biological systems that are difficult, and sometimes impossible, to work on.
 

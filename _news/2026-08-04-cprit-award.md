@@ -10,4 +10,4 @@ The Cancer Prevention and Research Institute of Texas has awarded the lab a Recr
 
 Certain bacteria in the tumor microbiome drive cancer progression and therapy resistance, but current tools cannot distinguish them from harmless commensals or remove them selectively. This award supports developing tools sensitive and specific enough to act on that distinction.
 
-The work is a collaboration with [Christopher Fan](https://www.houstonmethodist.org/doctor/christopher-fan/) at Houston Methodist, on clinical samples, and [Michael King](https://cancertrailblazers.org) at Rice BioE, on tracking whether the tools hold up in a cancer environment.
+The work is a collaboration with [Christopher Fan](https://www.houstonmethodist.org/doctor/christopher-fan/) at Houston Methodist, who brings the microbe "machines" found in clinical samples, and [Michael King](https://cancertrailblazers.org) at Rice BioE, who helps us track whether our tools hold up in a "wild" cancer environment.
