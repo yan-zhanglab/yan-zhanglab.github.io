@@ -78,8 +78,10 @@ a.arc-step * {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 22px;
   width: 22px;
   height: 22px;
+  min-width: 22px;
   border-radius: 50%;
   background: #1a2b4c;
   color: #fff;
@@ -321,5 +323,5 @@ Our current tool-building efforts target human health, but the tools aren't limi
       <div class="role-note">Inquiries welcome</div>
     </a>
   </div>
-  <p class="join-ask">Email me at <strong>yz350[at]rice[dot]edu</strong> with your CV, a brief description of your research interests and career plan, why you are interested in this lab, and contact information for three references. More detail on <a href="/members/Lab-Member/">our philosophy and open positions</a>.</p>
+  <p class="join-ask">Email me at <strong>yz350[at]rice[dot]edu</strong> with a few sentences about what you want to work on and why this lab. More detail on <a href="/members/Lab-Member/">how to join</a>.</p>
 </div>
