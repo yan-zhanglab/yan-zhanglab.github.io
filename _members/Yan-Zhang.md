@@ -1,6 +1,6 @@
 ---
 title: "Yan Zhang, Ph.D."
-position: "Principal Investigator"
+position: "Principal Investigator, Assistant Professor in Rice ChBE"
 status: current
 order: 1
 image: "/images/YanZhangProfile.png"

@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Zhang Lab for Cell-Free Synthetic Biology"
-excerpt: ""
+excerpt: "The Zhang Lab at Rice ChBE builds cell-free synthetic biology platforms: learning the machinery biology runs on, rebuilding it in an open tube, and shipping the program into the wild."
 author_profile: false
 redirect_from: 
   - /about/
@@ -9,6 +9,18 @@ redirect_from:
 ---
 
 <style>
+.dept {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin: -0.6rem 0 1.2rem;
+}
+.dept a {
+  color: #6b7280;
+  text-decoration: none;
+}
+.dept a:hover {
+  text-decoration: underline;
+}
 .lede {
   font-size: 1.35rem;
   line-height: 1.4;
@@ -255,6 +267,8 @@ a.role * {
   line-height: 1.5;
 }
 </style>
+
+<p class="dept"><a href="https://chbe.rice.edu/">Department of Chemical and Biomolecular Engineering</a>, Rice University</p>
 
 <p class="lede">What we can build with biology is limited by the tools we have. So we build better tools.</p>
 
