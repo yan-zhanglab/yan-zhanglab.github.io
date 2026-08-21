@@ -55,8 +55,8 @@ The lab opens at Rice in January 2027. I am recruiting Ph.D. students in the Fal
 
 - **Graduate students:**<a id="graduate-students"></a> actively recruiting from any relevant program at Rice. Get in touch once you are admitted, or when you are coming to campus for an interview.
   - We don't currently offer direct admission into the graduate program. We recruit from the cohort of students already admitted at Rice, so you apply to a graduate program, not to me. You could still email me to learn about our work and the program. I want to clarify that talking science with me early will not affect your graduate application.
-- **Postdoctoral scholars:**<a id="postdocs"></a> inquiries welcome. When you are ready to go further, send me your CV, a short description of your career plan, and contact information for three references.
-- **Undergraduate researchers:**<a id="undergraduates"></a> inquiries welcome. When you are ready to go further, send me a one-page resume and a list of your previous coursework.
+- **Postdoctoral scholars:**<a id="postdocs"></a> inquiries welcome. When you write, include your CV, a short description of your career plan, and contact information for three references.
+- **Undergraduate researchers:**<a id="undergraduates"></a> inquiries welcome. When you write, include a one-page resume and a list of your previous coursework.
 
 </div>
 
