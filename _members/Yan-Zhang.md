@@ -11,7 +11,7 @@ excerpt: "Assistant Professor of Chemical and Biomolecular Engineering at Rice U
 
 I build tools for biology, and I got here by running into their limits.
 
-I started out building RNA regulators as an undergraduate in [Julius Lucks' lab](https://luckslab.org/) at Cornell, now at Northwestern. I could model how these regulators would work and confirm that the designs broke no natural laws. Yet what worked in theory did not seem to work in a living cell. That wasn't a design problem. It was a platform problem.
+I started out building RNA regulators as an undergraduate in [Julius Lucks' lab](https://luckslab.org/) at Cornell, now at Northwestern. I could model how these regulators would work and confirm that the designs broke no natural laws. Yet what worked in theory did not seem to work in a living cell. That wasn't a design problem. It was a platform problem. And that distinction is even more critical now: our ability to design biology is advancing, but the platform to deliver it hasn't kept pace.
 
 In my graduate research, I moved into cell-free gene expression systems in [Mark Styczynski's lab](https://sites.gatech.edu/styczynski/) at Georgia Tech. The programs ran better there, and we built biosensing programs that detect diverse classes of analytes and function in human samples, which is what point-of-need diagnostics actually demand. To make sure our sensors could deliver on that, we engineered the readouts too: an equipment-free result you can see by eye, a quantitative measurement pluggable to a personal glucose monitor, and a multiplexed test that answers several questions at once.
 
@@ -25,7 +25,7 @@ As I establish my lab at Rice, I look forward to building that vision with you.
 Rice University (January 2027-)
 
 **Cancer Prevention and Research Institute of Texas (CPRIT) Scholar in Cancer Research**  
-Rice University (Fall 2026-)
+Rice University (January 2027-)
 
 **NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow**  
 California Institute of Technology (2024-)

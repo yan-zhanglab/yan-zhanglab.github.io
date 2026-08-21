@@ -35,10 +35,10 @@ I think a good mentor gets you to where you pick the problem, design the solutio
 
 The lab opens at Rice in January 2027. I am recruiting Ph.D. students in the Fall 2026 admissions cycle.
 
-- <a id="graduate-students"></a>**Graduate students:** actively recruiting from any relevant program at Rice. Get in touch once you are admitted, or when you are coming to campus for an interview.
+- **Graduate students:**<a id="graduate-students"></a> actively recruiting from any relevant program at Rice. Get in touch once you are admitted, or when you are coming to campus for an interview.
   - We don't currently offer direct admission to the lab. You apply to a graduate program, not to me. You could still email me to learn about our work and the program. I want to set expectations that talking science early will not affect your application.
-- <a id="postdocs"></a>**Postdoctoral scholars:** inquiries welcome. When you are ready to go further, send me your CV, a short description of your career plan, and contact information for three references.
-- <a id="undergraduates"></a>**Undergraduate researchers:** inquiries welcome. When you are ready to go further, send me a one-page resume and a list of your previous coursework.
+- **Postdoctoral scholars:**<a id="postdocs"></a> inquiries welcome. When you are ready to go further, send me your CV, a short description of your career plan, and contact information for three references.
+- **Undergraduate researchers:**<a id="undergraduates"></a> inquiries welcome. When you are ready to go further, send me a one-page resume and a list of your previous coursework.
 
 ## Let's Talk
 
