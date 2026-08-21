@@ -54,9 +54,11 @@ The lab opens at Rice in January 2027. I am recruiting Ph.D. students in the Fal
 <div class="positions" markdown="1">
 
 - **Graduate students:**<a id="graduate-students"></a> actively recruiting from any relevant program at Rice. Get in touch once you are admitted, or when you are coming to campus for an interview.
-  - We don't currently offer direct admission into the graduate program. We recruit from the cohort of students already admitted at Rice, so you apply to a graduate program, not to me. You could still email me to learn about our work and the program. I want to clarify that talking science with me early will not affect your graduate application.
+  - We currently recruit from students already admitted to Rice graduate programs. So admission comes first, and lab matching comes after. I want to be direct about this format because I would rather you spend your effort on the application that matters more. Email me anyway if you want to talk about the science or the program.
 - **Postdoctoral scholars:**<a id="postdocs"></a> inquiries welcome. When you write, include your CV, a short description of your career plan, and contact information for three references.
+  - We encourage interested candidates to reach out early with fellowship ideas and career plans. As a postdoc not too long ago, I found that putting these together made me think deliberately about how a postdoc in a particular lab would position me for where I wanted to end up. These are starting places for me to have that same conversation with you. A fellowship isn't required to join the lab, and if the fit is right, we will find a way. What I am after is an exchange: you bring expertise the lab doesn't have, and I contribute a new lens you don't have yet.
 - **Undergraduate researchers:**<a id="undergraduates"></a> inquiries welcome. When you write, include a one-page resume and a list of your previous coursework.
+  - I share undergraduate inquiries with the lab, and whether the fit is right is for your potential mentor to figure out. Once a lab member expresses interest in working with you, I will write back to set up a meeting. If several members are interested, you can meet each of them and decide. Sometimes silence just means we are at capacity, so do not let it stop you from asking again in a later semester. Do write to me first rather than to individual lab members.
 
 </div>
 

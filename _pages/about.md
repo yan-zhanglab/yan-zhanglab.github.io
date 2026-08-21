@@ -337,5 +337,5 @@ Our current tool-building efforts target human health, but the tools aren't limi
       <div class="role-note">Inquiries welcome</div>
     </a>
   </div>
-  <p class="join-ask">Email me at <strong>yz350[at]rice[dot]edu</strong> with a few sentences about what you want to work on and why this lab. More detail on <a href="/members/Lab-Member/">how to join</a>.</p>
+  <p class="join-ask">Start with <a href="/members/Lab-Member/">how to join</a>. It explains how each position works and what I am looking for. Then email me at <strong>yz350[at]rice[dot]edu</strong> with a few sentences about what you want to work on and why this lab.</p>
 </div>
