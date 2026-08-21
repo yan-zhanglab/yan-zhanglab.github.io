@@ -38,7 +38,7 @@ As I establish my lab at Rice, I look forward to building that vision with you.
 **Assistant Professor in Chemical and Biomolecular Engineering**  
 Rice University (January 2027-)
 
-**Cancer Prevention and Research Institute of Texas (CPRIT) Scholar in Cancer Research**  
+**Cancer Prevention and Research Institute of Texas (CPRIT) Scholar**  
 Rice University (January 2027-)
 
 **NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow**  
