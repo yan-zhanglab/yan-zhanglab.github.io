@@ -6,7 +6,7 @@ order: 1
 image: "/images/YanZhangProfile.png"
 email: "yz350@rice.edu"
 cv: "/files/Yan_Zhang_CV.pdf"
-excerpt: "Incoming Assistant Professor of Chemical and Biomolecular Engineering at Rice University."
+excerpt: "Assistant Professor of Chemical and Biomolecular Engineering at Rice University."
 ---
 
 I build tools for biology, and I got here by running into their limits.
@@ -19,10 +19,13 @@ In my postdoctoral training with [Richard Murray](https://murray.cds.caltech.edu
 
 As I establish my lab at Rice, I look forward to building that vision with you.
 
-## Professional Appointments
+## Appointments and Awards
 
-**Incoming Assistant Professor**  
-Department of Chemical and Biomolecular Engineering, Rice University (January 2027-)
+**Assistant Professor in Chemical and Biomolecular Engineering**  
+Rice University (January 2027-)
+
+**Cancer Prevention and Research Institute of Texas (CPRIT) Scholar in Cancer Research**  
+Rice University (Fall 2026-)
 
 **NIH MOSAIC K99/R00 Pathway to Independence Postdoctoral Fellow**  
 California Institute of Technology (2024-)
@@ -37,21 +40,6 @@ Georgia Institute of Technology (2022)
 
 **B.S., Chemical and Biomolecular Engineering**  
 Cornell University (2017)
-
-## Honors and Awards
-
-**CPRIT Recruitment of First-Time, Tenure-Track Faculty Members** (2026)  
-Cancer Prevention and Research Institute of Texas
-
-**NIH MOSAIC K99/R00 Pathway to Independence Award** (2024)  
-National Institutes of Health
-
-**Presidential Postdoctoral Fellowship** (2022)  
-California Institute of Technology
-
-## Research Interests
-
-Cell-free gene expression platforms, and what they let us build: molecular diagnostics that survive real samples, phage engineered without a host, and reactions whose every component is known. More on the [research page](/research/).
 
 ## Contact
 
