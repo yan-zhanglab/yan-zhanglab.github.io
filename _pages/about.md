@@ -272,7 +272,7 @@ a.role * {
 
 <p class="lede">What we can build with biology is limited by the tools we have. So we build better tools.</p>
 
-The Zhang Lab develops cell-free synthetic biology platforms. We learn the machinery biology already runs on, then test what we understand by rebuilding it as a programmable environment in an open tube. Sometimes we make the machines better.
+The Zhang Lab develops cell-free synthetic biology platforms. We learn the machinery biology already runs on, then rebuild it in an open tube to test what we understand. Sometimes we make the machines better.
 
 <p class="lede-test">Then comes the real test: we ship the tools into the wild to find out whether we got it right.</p>
 
