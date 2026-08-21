@@ -215,6 +215,19 @@ a.arc-step * {
   border: 1px solid #dde3ea;
   border-radius: 6px;
   padding: 0.7rem 0.85rem;
+  color: inherit;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+a.role,
+a.role:hover,
+a.role:visited,
+a.role * {
+  text-decoration: none !important;
+}
+.role:hover,
+.role:focus-visible {
+  box-shadow: 0 3px 10px rgba(26,43,76,0.10);
+  border-color: #c3d4ea;
 }
 .role-name {
   font-size: 0.92rem;
@@ -295,18 +308,18 @@ Our current tool-building efforts target human health, but the tools aren't limi
   <h2>Join Us</h2>
   <p>We welcome researchers from across engineering and the natural sciences. What matters most is intellectual curiosity, creativity, and being a good teammate who collaborates openly with the rest of the lab.</p>
   <div class="role-grid">
-    <div class="role">
+    <a class="role" href="/members/Lab-Member/#graduate-students">
+      <div class="role-name">Graduate students</div>
+      <div class="role-note">Actively recruiting</div>
+    </a>
+    <a class="role" href="/members/Lab-Member/#postdocs">
       <div class="role-name">Postdoctoral scholars</div>
       <div class="role-note">Inquiries welcome</div>
-    </div>
-    <div class="role">
-      <div class="role-name">Graduate students</div>
-      <div class="role-note">Ph.D. and master's, any relevant Rice program</div>
-    </div>
-    <div class="role">
+    </a>
+    <a class="role" href="/members/Lab-Member/#undergraduates">
       <div class="role-name">Undergraduate researchers</div>
       <div class="role-note">Inquiries welcome</div>
-    </div>
+    </a>
   </div>
   <p class="join-ask">Email me at <strong>yz350[at]rice[dot]edu</strong> with your CV, a brief description of your research interests and career plan, why you are interested in this lab, and contact information for three references. More detail on <a href="/members/Lab-Member/">our philosophy and open positions</a>.</p>
 </div>
