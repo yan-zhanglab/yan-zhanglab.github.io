@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Zhang Lab"
 title_separator          : "-"
 name                     : &name "Yan Zhang"
-description              : &description "personal description"
+description              : &description "The Zhang Lab at Rice University builds cell-free synthetic biology platforms: learning the machinery biology runs on, rebuilding it in an open tube, and shipping the result into the wild."
 url                      : https://yan-zhanglab.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yan-zhanglab/yan-zhanglab.github.io"
@@ -94,7 +94,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

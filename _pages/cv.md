@@ -7,4 +7,4 @@ author_profile: true
 ---
 
 {% include base_path %}
-My CV is available [here](/files/YZ_CV.pdf)
+My CV is available [here](/files/Yan_Zhang_CV.pdf).
