@@ -83,6 +83,8 @@ author_profile: false
 }
 .sec h2 {
   margin: 0 !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
   font-size: 1.35rem;
   color: #1a2b4c;
   line-height: 1.25;
@@ -108,7 +110,7 @@ For decades, the *E. coli* lysate-based cell-free system has been the workhorse 
 We are now facing this ceiling. Our ability to design and build with biology is advancing faster than ever, but the platform can no longer support our endeavors. So we build better platforms.
 
 
-<div class="sec">
+<div class="sec" id="platforms">
   <img class="sec-icon" src="{{ base_path }}/images/step-microbe.png" alt="A rod-shaped microbe with a phage attached">
   <h2>Expanding the Platforms We Work On</h2>
 </div>
@@ -141,7 +143,7 @@ We develop custom reconstituted platforms for sensing tasks that will not work i
 </div>
 
 
-<div class="sec">
+<div class="sec" id="opens-up">
   <img class="sec-icon" src="{{ base_path }}/images/step-apply.png" alt="A gear, representing biotechnology built on the platform">
   <h2>What New Platforms Open Up</h2>
 </div>
@@ -186,7 +188,7 @@ Cell-free reactions are unusually well suited to diagnostics: one reaction can b
   <h2>Shipping the Program</h2>
 </div>
 
-Building outside the cell is a means, not the end. The tube is where we can see and control every variable. Shipping is where we give that control up.
+Building outside the cell, in an open tube, lets us see and control every variable. Shipping is where we give that control up and test whether we've got it right.
 
 A phage rebooted in a tube has to go on to infect a live pathogen. A sensor built in a clean reconstituted reaction has to return a true answer in serum, in an environmental sample, in whatever someone actually hands us. Both are the same test in different form: the program has to hold true in the wild.
 

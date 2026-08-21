@@ -38,11 +38,20 @@ redirect_from:
   border: 1px solid #dde3ea;
   border-radius: 8px;
   background: #fff;
-  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  color: inherit;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
-.arc-step:hover {
+a.arc-step,
+a.arc-step:hover,
+a.arc-step:visited,
+a.arc-step * {
+  text-decoration: none !important;
+}
+.arc-step:hover,
+.arc-step:focus-visible {
   box-shadow: 0 4px 12px rgba(26,43,76,0.09);
   border-color: #c3d4ea;
+  transform: translateY(-2px);
 }
 .arc-step--final {
   background: #f4f8fd;
@@ -239,32 +248,32 @@ The Zhang Lab develops cell-free synthetic biology platforms that draw from the 
 <p class="lede-test">Then comes the real test: we ship the tools into the wild to find out whether we got it right.</p>
 
 <div class="arc">
-  <div class="arc-step">
+  <a class="arc-step" href="/research/#platforms">
     <div class="arc-head">
       <div class="arc-num">1</div>
       <img class="arc-icon" src="/images/step-learn.png" alt="A microbe broken open, revealing the machinery inside">
     </div>
     <div class="arc-label">Learn the Machines</div>
     <div class="arc-sub">Draw on machinery from across biology</div>
-  </div>
+  </a>
   <div class="arc-arrow">&rarr;</div>
-  <div class="arc-step">
+  <a class="arc-step" href="/research/#platforms">
     <div class="arc-head">
       <div class="arc-num">2</div>
       <img class="arc-icon" src="/images/step-build.png" alt="A reaction tube with transcription and translation machinery">
     </div>
     <div class="arc-label">Build the Cell-Free Platform</div>
     <div class="arc-sub">Assemble and characterize outside the cell</div>
-  </div>
+  </a>
   <div class="arc-arrow">&rarr;</div>
-  <div class="arc-step arc-step--final">
+  <a class="arc-step arc-step--final" href="/research/#opens-up">
     <div class="arc-head">
       <div class="arc-num">3</div>
       <img class="arc-icon arc-icon--ship" src="/images/step-ship.png" alt="A paper plane shipping biological designs into living cells">
     </div>
     <div class="arc-label">Ship the Program</div>
     <div class="arc-sub">Send it into the wild</div>
-  </div>
+  </a>
 </div>
 
 Our current tool-building efforts target human health, but the tools aren't limited to it. If you see an application we have not thought of, we want to hear about it.
