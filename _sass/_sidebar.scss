@@ -258,3 +258,23 @@
     }
   }
 }
+
+/* Follow button removed from author-profile.html, so the author link list
+   can no longer be toggled open on small screens. Show it inline at all
+   widths instead of as a dropdown. */
+.author__urls {
+  display: block;
+  position: relative;
+  right: auto;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  z-index: auto;
+
+  &:before,
+  &:after {
+    display: none;
+  }
+}
