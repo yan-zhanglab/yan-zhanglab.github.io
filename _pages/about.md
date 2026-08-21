@@ -243,7 +243,7 @@ a.arc-step * {
 
 <p class="lede">What we can build with biology is limited by the tools we have. So we build better tools.</p>
 
-The Zhang Lab develops cell-free synthetic biology platforms that draw from the vast diversity of biological machinery and make it programmable. Cell-free gene expression systems are where we build and characterize tools free of the constraints living cells impose.
+The Zhang Lab develops cell-free synthetic biology platforms. We learn the machinery biology already runs on, then test what we understand by rebuilding it as a programmable environment in an open tube. Sometimes we make the machines better.
 
 <p class="lede-test">Then comes the real test: we ship the tools into the wild to find out whether we got it right.</p>
 
