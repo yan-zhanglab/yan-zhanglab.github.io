@@ -90,14 +90,25 @@ author_profile: false
   line-height: 1.25;
 }
 .claim {
-  font-size: 1.02rem;
+  font-size: 1.06rem;
   font-weight: 600;
   color: #1a2b4c;
-  line-height: 1.4;
-  margin: 1.6rem 0 0.5rem;
+  line-height: 1.45;
+  border-left: 3px solid #3d6fb4;
+  padding: 0.1rem 0 0.1rem 0.95rem;
+  margin: 1.6rem 0 0.7rem;
 }
 .claim + p {
   margin-top: 0;
+}
+.pull {
+  font-size: 1.18rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #1a2b4c;
+  border-left: 3px solid #1a2b4c;
+  padding: 0.15rem 0 0.15rem 1.1rem;
+  margin: 1.8rem 0;
 }
 </style>
 
@@ -105,7 +116,9 @@ author_profile: false
 
 Cell-free gene expression systems recreate the same gene transcription and translation in an open test tube reaction. By removing constraints such as cell growth and survival in a living cell, cell-free systems let us design and engineer biological systems that are difficult, and sometimes impossible, to work on.
 
-For decades, the *E. coli* lysate-based cell-free system has been the workhorse powering biotechnology innovations, but it also set an inconvenient ceiling. Crude lysate carries thousands of native enzymes and regulatory molecules that interfere with engineered systems, and *E. coli*'s own biochemistry cannot support the growing diversity of designs people want to build. Sooner or later, the limit isn't what biology can do, it's what the platform can support.
+For decades, the *E. coli* lysate-based cell-free system has been the workhorse powering biotechnology innovations, but it also set an inconvenient ceiling. Crude lysate carries thousands of native enzymes and regulatory molecules that interfere with engineered systems, and *E. coli*'s own biochemistry cannot support the growing diversity of designs people want to build.
+
+<p class="pull">Sooner or later, the limit isn't what biology can do, it's what the platform can support.</p>
 
 We are now facing this ceiling. Our ability to design and build with biology is advancing faster than ever, but the platform can no longer support our endeavors. So we build better platforms.
 
@@ -123,7 +136,7 @@ We characterize the proteome, RNA pool, and metabolome in detail to understand h
 
 <div class="theme">Reconstituted Systems</div>
 
-<p class="claim">Reconstituted systems are built from purified components rather than crude extract, trading yield and cost for control over composition.</p>
+<p class="claim">Reconstituted systems use purified components rather than crude extract, trading yield and cost for control over composition.</p>
 
 We develop custom reconstituted platforms for sensing tasks that will not work in a crude lysate background at all. Stripping away the murky background chemistry creates a clean reaction environment in which a sensor responds only to its intended signal. The longer goal is a design-build-test workflow where every element's purpose and activity is known, so reaction rate and yield are set deliberately rather than discovered by trial and error.
 
@@ -152,7 +165,7 @@ A platform is only as interesting as what it lets someone build. Each capability
 
 <div class="theme">Phage Therapeutics</div>
 
-<p class="claim">Traditional phage work requires propagating a susceptible host. A cell-free platform does not.</p>
+<p class="claim">Traditional phage work requires propagating a susceptible host. A cell-free platform removes that requirement so we can build better phages.</p>
 
 As antibiotic resistance spreads, bacteriophages, the natural predators of bacteria, are drawing renewed attention as antimicrobials against multidrug-resistant infections. We reboot phage directly from genome sequence, assembling and recovering infectious particles without a host, which makes production and engineering far faster. We are building this capability out across diverse phage and engineering them against ESKAPE pathogens.
 
