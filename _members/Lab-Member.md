@@ -1,39 +1,45 @@
 ---
 title: "Join Us!"
-position: "All positions open"
+position: "Recruiting graduate students, open to inquiries"
 status: current
 order: 20
 excerpt: ""
 image: "/images/Rice_Owl.png"
 ---
 
-The Zhang Lab is always looking for curious, collaborative, and highly motivated researchers. We welcome students and researchers from diverse backgrounds across engineering and the natural sciences. What matters most is intellectual curiosity, creativity, and a willingness to learn.
+We build tools that let people do things with biology they could not do before. If that sounds like your kind of problem, let's talk.
 
-## Our Philosophy
+## What We Work On
 
-Our lab is built around a simple idea: what we can build with biology is fundamentally shaped by the tools we have available. We develop cell-free expression platforms that expand what is possible in biological engineering. Our current research spans cell-free synthetic biology, biosensor diagnostics, and phage therapeutics. Together, these address important challenges in human health and advance broadly applicable engineering platforms for biological research and biotechnology.
+We learn the machinery biology already runs on, rebuild it in an open tube, and ship the result into the wild. Right now that means phage assembled from a genome sequence with no host to grow them in, and diagnostics that hold up in a real sample instead of ultra-clean lab water. There is more on the [research page](/research/).
 
-## What You Can Expect
+## What You Would Actually Do
 
-As a member of the lab, you will:
+- Take apart a cell to learn how its machinery works together, and find what is holding a reaction back
+- Assemble a platform where we know (or at least think we know) what each part does, so rate and yield are set rather than discovered
+- Reboot a phage from its genome sequence, without the host it normally needs
+- Build a sensor that returns a true answer in serum, not just in buffer
+- Take those tools to real biomedical samples with collaborators at Houston Methodist and across the Texas Medical Center
 
-- Contribute to the development of technologies that enable discoveries across biology.
-- Collaborate with researchers across Rice University, the surrounding Texas Medical Center, and the broader synthetic biology community.
-- Develop independent research ideas and scientific leadership.
+Biomedical samples are what we have now, not the limit. If at least one resonates with you, that is usually the right signal.
 
-My goal is to help every trainee develop into an independent scientist capable of identifying important problems, designing creative solutions, and communicating their ideas effectively. Lab members are encouraged to ask thoughtful questions, communicate openly, and support one another in a collaborative research environment.
+## What I Care About
+
+Curiosity, creativity, and being a good teammate. I care more about the questions you ask than what you already know.
+
+The lab is new, so you would join as one of its founding members. You will get a lot of my time, and a real hand in shaping the setup and culture of this lab. That is the best reason to come here early.
+
+I think a good mentor gets you to where you pick the problem, design the solution, and defend why it matters. My goal is to get you there. My mentors gave me the freedom to own my science and fully experience the joy of discovery. I want you to have the same.
 
 ## Open Positions
 
-We welcome inquiries from:
+- **Graduate students:** actively recruiting from any relevant program at Rice. Get in touch once you are admitted, or when you are coming to campus for an interview.
+  - We don't currently offer direct admission to the lab. You apply to a graduate program, not to me. You could still email me to learn about our work and the program. I want to set expectations that talking science early will not affect your application.
+- **Postdoctoral scholars:** inquiries welcome. When you are ready to go further, send me your CV, a short description of your career plan, and contact information for three references.
+- **Undergraduate researchers:** inquiries welcome. When you are ready to go further, send me a one-page resume and a list of your previous coursework.
 
-- Postdoctoral scholars 
-- Graduate students, Ph.D. and master's (We welcome exceptional students from any relevant program at Rice. After you are admitted or are coming to campus for an interview, please get in touch.)
-- Undergraduate researchers
+## Let's Talk
 
-If you are interested in joining the Zhang Lab, please email me at yz350[at]rice[dot]edu with:
+To start our conversation, email me at yz350[at]rice[dot]edu with a few sentences about what you want to work on and why this lab.
 
-- Your CV
-- A brief description of your research interests and career plan
-- Why you are interested in joining the lab
-- Contact information for three references
+I read all of them.
