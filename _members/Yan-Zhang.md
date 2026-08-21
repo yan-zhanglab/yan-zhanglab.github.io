@@ -60,8 +60,8 @@ Cornell University (2017)
 **Designing Predictive Cell-Free Systems with One-Pot PURE**  
 AIChE Annual Meeting, Boston, MA, November 2025 · [slides](/files/AIChE2025.pdf)
 
-**Optimizing Protein Expression in the One-Pot PURE system**  
-13th ICBE, Houston, TX, January 2025 · [slides](/files/ICBE2025.pdf)
+**Optimizing Protein Expression in the One-Pot PURE System**  
+Build-a-Cell Seminar Series, virtual, April 2025 · [video](https://www.youtube.com/watch?v=vFOUEFmtA9U)
 
 **Protocell Arrays for Simultaneous Detection of Diverse Analytes**  
 Synthetic Biology Young Speaker Series, virtual, March 2023 · [video](https://youtu.be/vXD8HXvafBY)
