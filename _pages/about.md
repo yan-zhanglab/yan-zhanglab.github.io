@@ -235,7 +235,7 @@ redirect_from:
 
 The Zhang Lab develops cell-free synthetic biology platforms that draw from the vast diversity of biological machinery and make it programmable. Cell-free gene expression systems are where we build and characterize tools free of the constraints living cells impose.
 
-<p class="lede-test">Then comes the real test: we put the tools back into living cells to find out whether we got it right.</p>
+<p class="lede-test">Then comes the real test: we ship the tools into the wild to find out whether we got it right.</p>
 
 <div class="arc">
   <div class="arc-step">
