@@ -55,6 +55,17 @@ Georgia Institute of Technology (2022)
 **B.S., Chemical and Biomolecular Engineering**  
 Cornell University (2017)
 
+## Select Public Talks
+
+**Designing Predictive Cell-Free Systems with One-Pot PURE**  
+AIChE Annual Meeting, Boston, MA, November 2025 · [slides](/files/AIChE2025.pdf)
+
+**Optimizing Protein Expression in the One-Pot PURE system**  
+13th ICBE, Houston, TX, January 2025 · [slides](/files/ICBE2025.pdf)
+
+**Protocell Arrays for Simultaneous Detection of Diverse Analytes**  
+Synthetic Biology Young Speaker Series, virtual, March 2023 · [video](https://youtu.be/vXD8HXvafBY)
+
 ## Contact
 
 Email: yz350[at]rice[dot]edu  
