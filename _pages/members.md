@@ -5,6 +5,8 @@ permalink: /members/
 author_profile: false
 ---
 
+The lab officially opens in January 2027 and will begin rotations in Fall 2026.
+
 {% assign current_members = site.members
   | where: "status", "current"
   | sort: "order" %}
