@@ -322,7 +322,7 @@ Our current tool-building efforts target human health, but the tools aren't limi
 
 <div class="join">
   <h2>Join Us</h2>
-  <p>We welcome researchers from across engineering and the natural sciences. What matters most is intellectual curiosity, creativity, and being a good teammate who collaborates openly with the rest of the lab.</p>
+  <p>We welcome researchers from across engineering and the natural sciences.</p>
   <div class="role-grid">
     <a class="role" href="/members/Lab-Member/">
       <div class="role-name">Graduate students</div>
