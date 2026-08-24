@@ -50,8 +50,6 @@ The lab opens at Rice in January 2027. I am recruiting Ph.D. students in the Fal
 - **Postdoctoral scholars:**<a id="postdocs"></a> inquiries welcome. When you write, include your CV, a short description of your career plan, and contact information for three references.
   - We encourage interested candidates to reach out early with career plans. What I am after is an exchange: you bring expertise the lab doesn't have, and I contribute a new lens you don't have yet.
 - **Undergraduate researchers:**<a id="undergraduates"></a> inquiries welcome. When you write, include a one-page resume and a list of your previous coursework.
-  - I share undergraduate inquiries with the lab. Once a lab member expresses interest in working with you, I will write back to set up a meeting. Sometimes silence just means we are at capacity, so do not let it stop you from asking again in a later semester.
-
 </div>
 
 ## What I Care About
